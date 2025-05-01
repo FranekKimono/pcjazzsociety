@@ -83,7 +83,7 @@ export default defineNuxtConfig({
   },
   nitro: {
     prerender: {
-      routes: ["/posts/dicom-routing-using-capacitor"],
+      routes: [],
     },
   },
   tailwindcss: {
@@ -118,9 +118,8 @@ export default defineNuxtConfig({
       ],
       style: [
         {
-          children:
+          textContent:
             "body{background-color:#18181b;color:#d4d4d8;opacity:1!important;}",
-          type: "text/css",
         },
       ],
       script: [
