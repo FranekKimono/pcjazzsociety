@@ -23,33 +23,42 @@ Get Tickets
 ::
 ::
 
-<!-- About us component
+<!-- video -->
 
-::FullWidthSection{variant="gradient" gradientColor="blue" padding="sm" patternOverlay="true"}
+::FullWidthSection{variant="primary" patternOverlay="true" backgroundImage="/images/hero/jazz-splash-a.jpg" contentClass="w-full max-w-none px-0"}
 
-# Become a Member
+<div class="aspect-w-16 aspect-h-9">
+  <iframe
+    src="https://www.youtube.com/embed/HrmEXkicjwI"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen
+    width="100%"
+    height="100%"
+    class="rounded-lg shadow-lg w-full h-full"
+  ></iframe>
+</div>
+::
 
-Support Polish-Canadian jazz and enjoy exclusive benefits! As a member, you'll get access to special events, discounts on tickets, networking opportunities, and contribute to fostering cultural exchange through the vibrant sound of jazz. Join our passionate community today!
+<!-- Membership -->
+
+<br>
+
+<!-- #video -->
+<!-- EMBED VIDEO -->
+<!-- https://www.youtube.com/watch?v=HrmEXkicjwI -->
+<!-- Support Polish-Canadian jazz and enjoy exclusive benefits! As a member, you'll get access to special events, discounts on tickets, networking opportunities, and contribute to fostering cultural exchange through the vibrant sound of jazz. Join our passionate community today!
 
 ::ProseButtonGroup{class="w-full justify-end"}
 ::ProseButton{to="/membership" variant="primary" size="xl"}
-Join the Society
-:: -->
+Join the Society -->
 
-<!-- EVENTS SECTIONS -->
-<!--
-::FullWidthSection{ padding="sm" patternOverlay="true" backgroundImage="/images/hero/jazz-splash-a.jpg"}
-
-# test
-
-::ProseButton{to="/products" variant="primary" size="xl" padding="lg"}
-Our tests
-::
-:: -->
+<!-- events -->
 
 # EVENTS
 
-<br></br>
 ::TwoColumn
 #left
 [![Agnieszka Wilczyńska performing live](/images/events/agnieszka-wilczynska-2025/wilczynska.jpg){width="600" class="rounded-lg shadow-lg"}](/events/agnieszka-wilczynska)

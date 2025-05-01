@@ -7,7 +7,7 @@ ogImage: /images/pc-jazzfest-logo-color.png
 
 <br><br>
 
-# [<span class="text-5xl text-primary-100">Upcoming Events</span>]
+# [<span class="text-5xl text-primary-100">Get Tickets for Upcoming Events</span>]
 
 <br><br>
 ::FullWidthSection{variant="default" padding="sm" patternOverlay="true"}
