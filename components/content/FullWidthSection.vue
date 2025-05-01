@@ -36,6 +36,7 @@ interface Props {
   padding?: "none" | "sm" | "md" | "lg" | "xl";
   backgroundImage?: string;
   patternOverlay?: boolean | string;
+  imageDisplayMode?: "cover" | "contain";
   className?: string;
   contentClass?: string;
   gradientColor?: string;
@@ -47,6 +48,7 @@ const props = withDefaults(defineProps<Props>(), {
   padding: "md",
   backgroundImage: "",
   patternOverlay: false,
+  imageDisplayMode: "cover",
   className: "",
   contentClass: "",
   gradientColor: "",
@@ -104,11 +106,20 @@ const variantClass = computed(() => {
 const backgroundStyles = computed(() => {
   if (!props.backgroundImage) return {};
 
+  // Determine fallback color based on variant
+  let fallbackColor = "rgb(39 39 42)"; // Default dark bg (bg-zinc-800)
+  if (props.variant === "light") {
+    fallbackColor = "rgb(228 228 231)"; // bg-zinc-200
+  } else if (props.variant === "primary") {
+    fallbackColor = "rgb(99 102 241)"; // bg-primary-500 (example)
+  } // Add other variants if needed
+
   return {
     backgroundImage: `url(${props.backgroundImage})`,
-    backgroundSize: "cover",
+    backgroundSize: props.imageDisplayMode,
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
+    backgroundColor: fallbackColor, // Add fallback color
   };
 });
 </script>

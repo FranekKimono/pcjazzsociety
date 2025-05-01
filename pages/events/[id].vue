@@ -1,42 +1,7 @@
 <template>
   <div v-if="page">
-    <br /><br />
-    <FullWidthSection variant="default" padding="sm" :pattern-overlay="true">
-      <TwoColumn>
-        <template #left>
-          <br />
-          <NuxtImg
-            v-if="page.image"
-            :src="page.image"
-            :alt="page.imageAlt || page.title"
-            class="rounded-lg shadow-lg"
-            width="600"
-            densities="x1 x2"
-          />
-        </template>
-        <template #right>
-          <h1>{{ page.title }}</h1>
-          <p v-if="page.artist"><strong>Artist:</strong> {{ page.artist }}</p>
-          <p><strong>Date:</strong> {{ formatDate(page.date) }}</p>
-          <p><strong>Location:</strong> {{ page.location }}</p>
-          <p v-if="page.price"><strong>Price:</strong> {{ page.price }}</p>
-          <br />
-          <ProseButton
-            v-if="page.ticketUrl"
-            :to="page.ticketUrl"
-            variant="primary"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Get Ticket
-          </ProseButton>
-        </template>
-      </TwoColumn>
-    </FullWidthSection>
-    <br /><br />
-
     <!-- Render the main Markdown content below -->
-    <FullWidthSection padding="sm">
+    <FullWidthSection padding="none">
       <ContentRenderer :value="page" />
     </FullWidthSection>
   </div>
