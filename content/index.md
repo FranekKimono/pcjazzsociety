@@ -49,11 +49,41 @@ Our tests
 
 # EVENTS
 
+<br></br>
 ::TwoColumn
 #left
 [![Agnieszka Wilczyńska performing live](/images/events/agnieszka-wilczynska-2025/wilczynska.jpg){width="600" class="rounded-lg shadow-lg"}](/events/agnieszka-wilczynska)
+
+::ProseButton{to="/events/agnieszka-wilczynska" variant="primary"}
+Buy Tickets
+::
+
 #right
-[![Agnieszka Wilczyńska performing live](/images/events/olejniczak-sendecki/olejniczak-sendecki.jpg){width="600" class="rounded-lg shadow-lg"}](/events/agnieszka-wilczynska)
+[![Adam Olejniczak & Vladyslav Sendecki](/images/events/olejniczak-sendecki/olejniczak-sendecki.jpg){width="600" class="rounded-lg shadow-lg"}](/events/olejniczak-sendecki)
+
+::ProseButton{to="/events/olejniczak-sendecki" variant="primary"}
+Buy Tickets
+::
+
+::
+
+<br></br>
+
+::TwoColumn
+#left
+[![Agnieszka Wilczyńska performing live](/images/events/default-event/default-event.jpg){width="600" class="rounded-lg shadow-lg"}](/events/agnieszka-wilczynska)
+
+::ProseButton{to="/events/agnieszka-wilczynska" variant="primary"}
+Buy Tickets
+::
+
+#right
+[![Adam Olejniczak & Vladyslav Sendecki](/images/events/default-event/default-event.jpg){width="600" class="rounded-lg shadow-lg"}](/events/olejniczak-sendecki)
+
+::ProseButton{to="/events/olejniczak-sendecki" variant="primary"}
+Buy Tickets
+::
+<br></br>
 ::
 
 <!-- Membership -->

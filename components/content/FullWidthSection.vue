@@ -84,7 +84,7 @@ const paddingClass = computed(() => {
 const variantClass = computed(() => {
   switch (props.variant) {
     case "default":
-      return "bg-zinc-800 dark:bg-zinc-800";
+      return "bg-zinc-600 dark:bg-zinc-800";
     case "primary":
       return "bg-primary-500 text-white";
     case "dark":

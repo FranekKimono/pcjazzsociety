@@ -38,9 +38,9 @@
             <ul class="nav-list">
               <li class="nav-item">
                 <NuxtLink
-                  to="/tickets"
+                  to="/events"
                   @click="mobileMenuOpen = false"
-                  :class="{ 'active-link': $route.path === '/tickets' }"
+                  :class="{ 'active-link': $route.path === '/events' }"
                   >Tickets
                 </NuxtLink>
               </li>
