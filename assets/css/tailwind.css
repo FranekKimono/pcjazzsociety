@@ -21,7 +21,7 @@
   }
 
   body {
-    @apply bg-zinc-900 text-zinc-300 font-medium;
+    @apply bg-slate-950 text-zinc-300 font-medium;
     /* Add any styles you want for the body here, but don't hide it */
     font-size: 1.3rem;
   }

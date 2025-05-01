@@ -1,7 +1,7 @@
 ---
-title: 'Privacy Policy'
-description: 'Privacy policy and information handling for Company Name'
-keywords: privacy policy, data protection, GDPR, information security, personal data, cookies
+title: "Privacy Policy"
+description: "Privacy policy and information handling for Polish Canadian Jazz Society"
+keywords: privacy policy, data protection, information security, personal data, Polish Canadian Jazz Society
 sitemap:
   changefreq: monthly
 ---
@@ -10,60 +10,55 @@ sitemap:
 
 ## What information do we collect?
 
-We collect information from you when you register on our site, place an order or fill out a form.
+We only collect personal information that you voluntarily provide to us when you contact us directly via email. This information typically includes your name and email address, as provided by you in your email communication.
 
-When ordering or registering on our site, as appropriate, you may be asked to enter your: name, e-mail address, mailing address, phone number or company name. You may, however, visit our site anonymously.
+You may visit our site anonymously without providing any personal information.
 
 ## What do we use your information for?
 
-Any of the information we collect from you may be used in one of the following ways:
+The personal information we collect via email is used solely for the purpose of responding to your inquiries or processing requests, such as e-transfer details if applicable.
 
-- To process transactions
-  Your information, whether public or private, will not be sold, exchanged, transferred, or given to any other company for any reason whatsoever, without your consent, other than for the express purpose of delivering the purchased product or service requested.
-- To send periodic emails
-  The email address you provide for order processing, will only be used to send you information and updates pertaining to your order.
+We will not use your email address for marketing purposes or add it to mailing lists without your explicit consent.
 
 ## How do we protect your information?
 
-We implement a variety of security measures to maintain the safety of your personal information when you place an order.
+We take reasonable steps to protect the personal information you provide via email from unauthorized access or disclosure. Access to email communications is restricted to authorized personnel who need the information to respond to your requests.
 
-We offer the use of a secure server. We transmit all supplied sensitive/credit information via Secure Socket Layer (SSL) technology and then encrypted into our Payment gateway providers database only to be accessible by those authorized with special access rights to such systems, and are required to keep the information confidential.
-
-After a transaction, your private information (credit cards, social security numbers, financials, etc.) will not be stored on our servers.
+Please note that email communication is not always secure. We advise against sending sensitive personal information (like financial details, beyond what is necessary for an e-transfer if requested) via email. This website does not process transactions or store sensitive data directly on its servers.
 
 ## Do we use cookies?
 
-Yes. Cookies are small files that a site or its service provider transfers to your computer's hard drive through your Web browser (if you allow) that enables the site's or service provider's systems to recognize your browser and capture and remember certain information.
-
-We use cookies to help us remember and process the items in your shopping cart and understand and save your preferences for future visits.
+Our website may use essential cookies necessary for basic site functionality. We do not use cookies for tracking, analytics, or advertising purposes. You can manage cookie preferences through your web browser settings.
 
 ## Do we disclose any information to outside parties?
 
-We do not sell, trade, or otherwise transfer to outside parties your personally identifiable information. This does not include trusted third parties who assist us in operating our website, conducting our business, or servicing you, so long as those parties agree to keep this information confidential. We may also release your information when we believe release is appropriate to comply with the law, enforce our site policies, or protect ours or others rights, property, or safety. However, non-personally identifiable visitor information may be provided to other parties for marketing, advertising, or other uses.
+We do not sell, trade, or otherwise transfer your personally identifiable information (such as your email address provided via direct contact) to outside parties.
+
+We do not use third-party analytics services (like Google Analytics) that would collect visitor information.
+
+We may disclose your information if required to do so by law or in response to valid requests by public authorities.
 
 ## Children's Online Privacy Protection Act Compliance
 
-We are in compliance with the requirements of COPPA (Children's Online Privacy Protection Act), we do not collect any information from anyone under 13 years of age. Our website, products, and services are all directed to people who are at least 13 years old or older.
+Our website and services are directed to individuals who are at least 13 years old or older. We do not knowingly collect any information from anyone under 13 years of age.
 
 ## Your Consent
 
-By using our site, you consent to our privacy policy.
+By using our site and contacting us via email, you consent to this privacy policy.
 
 ## Changes to our Privacy Policy
 
 If we decide to change our privacy policy, we will post those changes on this page.
 
-This policy last modified on 2023-01-01
+This policy was last modified on 2025-05-01
 
 ## Contacting Us
 
 If there are any questions regarding this privacy policy, you may contact us using the information below.
 
-Company Name<br>
-123 Main Street<br>
-New York, NY 10001<br>
-USA
+Polish Canadian Jazz Society<br>
+13830, 33rd Avenue<br>
+Surrey, BC V4P 2B4<br>
+Canada
 
-Email: info@example.com
-
-Phone: +1 (555) 123-4567
+Email: info@pcjazzsociety.ca

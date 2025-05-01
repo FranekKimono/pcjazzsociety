@@ -3,35 +3,35 @@
 
 # [<span class="text-5xl text-zinc-900">Sponsors</span>]
 
-Thank you to our generous sponsors!
+We gratefully thank our sponsors for their generous contributions. Your donations make delivery of our program possible.
 
 ::sponsor-grid
 :::sponsor-item
-[![TD Systems](/images/sponsors/TD-systems.png)](https://example.com/td-systems)
+[![TD Systems](/images/sponsors/TD-systems.png)]
 :::
 :::sponsor-item
-[![Long & McQuade](/images/sponsors/long-mcquade.png)](https://example.com/long-mcquade)
+[![Long & McQuade](/images/sponsors/long-mcquade.png)](https://www.long-mcquade.com)
 :::
 :::sponsor-item
-[![BB Con Projects Inc](/images/sponsors/bbcon.png)](https://example.com/bbcon)
+[![BB Con Projects Inc](/images/sponsors/bbcon.png)]
 :::
 :::sponsor-item
-[![Tom Lee Music](/images/sponsors/tom-lee-music.png)](https://example.com/tom-lee)
+[![Tom Lee Music](/images/sponsors/tom-lee-music.png)](https://www.tomleemusic.ca)
 :::
 :::sponsor-item
-[![Kazco Enterprises](/images/sponsors/kazco.png)](https://example.com/kazco)
+[![Kazco Enterprises](/images/sponsors/kazco.png)]
 :::
 :::sponsor-item
-[![Barbara Otrebska CPA](/images/sponsors/barbara-otrebska.png)](https://example.com/barbara-cpa)
+[![Barbara Otrebska CPA](/images/sponsors/barbara-otrebska.png)]
 :::
 :::sponsor-item
-[![CW Restorations](/images/sponsors/CW-restorations.png)](https://example.com/cw-restorations)
+[![CW Restorations](/images/sponsors/CW-restorations.png)]
 :::
 :::sponsor-item
-[![Lex Mazur](/images/sponsors/lex-mazur.png)](https://example.com/lex-mazur)
+[![Lex Mazur](/images/sponsors/lex-mazur.png)]
 :::
 :::sponsor-item
-[![The Georgia Straight](/images/sponsors/georgia-straight.png)](https://thegeorgiastraight.com)
+[![The Georgia Straight](/images/sponsors/georgia-straight.png)](https://www.straight.com)
 :::
 ::
 <br><br>

@@ -57,7 +57,7 @@ Join the Society -->
 
 <!-- events -->
 
-# EVENTS
+# UPCOMING EVENTS
 
 ::TwoColumn
 #left
@@ -104,6 +104,15 @@ Buy Tickets
 
 Support Polish-Canadian jazz and enjoy exclusive benefits! As a member, you'll get access to special events, discounts on tickets, networking opportunities, and contribute to fostering cultural exchange through the vibrant sound of jazz. Join our passionate community today!
 
+## Benefits Include:
+
+- Opportunity to share your jazz knowledge and experience.
+- Opportunity to meet exceptional jazz musicians.
+- Opportunity to cooperate with interesting people.
+- Priority ticket sales for PCJS Members.
+- Receive our exclusive Member Newsletter.
+- ...and more!
+
 ::ProseButtonGroup{class="w-full justify-end"}
 ::ProseButton{to="/membership" variant="primary" size="xl"}
 Join the Society
@@ -125,39 +134,55 @@ Polish Canadian Jazz Society would like to invite all jazz enthusiasts and music
 
 ::FullWidthSection{variant="light" padding="sm" patternOverlay="true"}
 
-# [<span class="text-5xl text-zinc-900">Our Sponsors</span>]
+# [<span class="text-4xl text-zinc-900">Our Sponsors</span>]
 
-We appreciate the support of our sponsors for our events.
-<br><br>
-<br>
+We gratefully thank our sponsors for their generous contributions. Your donations make delivery of our program possible.
+
 ::sponsor-grid
 :::sponsor-item
-[![TD Systems](/images/sponsors/TD-systems.png)](https://example.com/td-systems)
+[![TD Systems](/images/sponsors/TD-systems.png)]
 :::
 :::sponsor-item
-[![Long & McQuade](/images/sponsors/long-mcquade.png)](https://example.com/long-mcquade)
+[![Long & McQuade](/images/sponsors/long-mcquade.png)](https://www.long-mcquade.com)
 :::
 :::sponsor-item
-[![BB Con Projects Inc](/images/sponsors/bbcon.png)](https://example.com/bbcon)
+[![BB Con Projects Inc](/images/sponsors/bbcon.png)]
 :::
 :::sponsor-item
-[![Tom Lee Music](/images/sponsors/tom-lee-music.png)](https://example.com/tom-lee)
+[![Tom Lee Music](/images/sponsors/tom-lee-music.png)](https://www.tomleemusic.ca)
 :::
 :::sponsor-item
-[![Kazco Enterprises](/images/sponsors/kazco.png)](https://example.com/kazco)
+[![Kazco Enterprises](/images/sponsors/kazco.png)]
 :::
 :::sponsor-item
-[![Barbara Otrebska CPA](/images/sponsors/barbara-otrebska.png)](https://example.com/barbara-cpa)
+[![Barbara Otrebska CPA](/images/sponsors/barbara-otrebska.png)]
 :::
 :::sponsor-item
-[![CW Restorations](/images/sponsors/CW-restorations.png)](https://example.com/cw-restorations)
+[![CW Restorations](/images/sponsors/CW-restorations.png)]
 :::
 :::sponsor-item
-[![Lex Mazur](/images/sponsors/lex-mazur.png)](https://example.com/lex-mazur)
+[![Lex Mazur](/images/sponsors/lex-mazur.png)]
 :::
 :::sponsor-item
-[![The Goargia Straight](/images/sponsors/georgia-straight.png)](https://thegeorgiastraight.com)
+[![The Georgia Straight](/images/sponsors/georgia-straight.png)](https://www.straight.com)
 :::
 ::
 <br><br>
+::
+
+::FullWidthSection{variant="primary" padding="md" patternOverlay="true" backgroundImage="/images/hero/jazz-splash-c.jpg"}
+
+# Contact us
+
+::TwoColumn
+#left
+For more information, please contact us.
+
+&nbsp;&nbsp;&nbsp;&nbsp;[info@example.com](mailto:info@pcjazzsociety.ca)
+
+&nbsp;&nbsp;&nbsp;&nbsp;[+1 (604) 123-4567](tel:604-984-7857)
+#right
+Polish Canadian Jazz Society,<br>
+13830, 33rd Avenue, Surrey, BC<br>
+Canada, V4P 2B4<br>
 ::

@@ -106,12 +106,12 @@
     </main>
 
     <footer
-      class="site-footer bg-zinc-900 text-zinc-400 text-center text-sm py-6 mt-16"
+      class="site-footer bg-slate-950 text-zinc-400 text-center text-sm py-6 mt-16"
     >
       <div class="max-w-screen-lg mx-auto my-0 relative z-10">
         <p>
-          &copy; {{ new Date().getFullYear() }} Company Name. All rights
-          reserved.
+          &copy; {{ new Date().getFullYear() }} Polish-Canadian Jazz Society.
+          All rights reserved.
         </p>
         <div class="footer-links mt-2">
           <NuxtLink to="/contact" class="text-zinc-400 hover:text-zinc-200"
