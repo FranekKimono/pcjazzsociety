@@ -1,8 +1,6 @@
 /* Main styles for Nuxt Content Starter */
 
 /* Import fonts from Google dynamically using env variables */
-@import url("https://fonts.googleapis.com/css2?family=var(--main-font):wght@300;400;700;900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=var(--code-font):wght@300;400;500;600;700&display=swap");
 
 /* Tailwind directives */
 @tailwind base;

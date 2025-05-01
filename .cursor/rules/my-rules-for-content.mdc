@@ -7,13 +7,12 @@ alwaysApply: false
 # Content writing guidelines
 
 - Use Zinsser principles (clear, concise, simple)
-- NEVER sacrifice technical precision for medical terms
-- Include industry keywords (DICOM, HL7, PACS) for SEO 
-- Balance technical accuracy with accessible language
+- 
+- Include industry keywords (jazz, society, poland, polish) for SEO 
+- Use accessible language
 - Keep slightly informal but professional tone
-- Use medical examples relevant to the target audience
 - NEVER include placeholder or lorem ipsum text
-- ALWAYS check medical terminology accuracy
+
 
 ## Markdown Component Structure Rules
 

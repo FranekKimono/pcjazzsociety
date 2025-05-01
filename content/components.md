@@ -13,9 +13,12 @@ This page demonstrates the various UI components and content elements available 
 ## Available Components
 
 ### ContentBox
+
 ```md
 ::ContentBox{bgColor="primary" bgShade="900" borderColor="primary" borderShade="500" shadow=true icon=true iconColor="primary" iconShade="400"}
+
 # Optional with icon
+
 <template #icon>
 Your icon here (SVG or other content)
 </template>
@@ -25,6 +28,7 @@ Content here
 ```
 
 ### InfoBox
+
 ```md
 ::InfoBox
 Content here
@@ -32,6 +36,7 @@ Content here
 ```
 
 ### WarningBox
+
 ```md
 ::WarningBox
 Content here
@@ -39,6 +44,7 @@ Content here
 ```
 
 ### EmphasisBox
+
 ```md
 ::EmphasisBox
 Content here
@@ -46,6 +52,7 @@ Content here
 ```
 
 ### TwoColumn
+
 ```md
 ::TwoColumn
 #left
@@ -56,6 +63,7 @@ Right column content
 ```
 
 ### FullWidthSection
+
 ```md
 ::FullWidthSection{variant="default" padding="lg"}
 Content here
@@ -63,6 +71,7 @@ Content here
 ```
 
 ### ProseButton
+
 ```md
 ::ProseButton{variant="primary" to="/link"}
 Button text
@@ -70,6 +79,7 @@ Button text
 ```
 
 ### ProseButtonGroup
+
 ```md
 ::ProseButtonGroup
 ::ProseButton{to="/link1"}Button 1::
@@ -90,7 +100,7 @@ This is a content box with a dark background and border. You can use **Markdown 
 
 - List items work too
 - Another list item
-::
+  ::
 
 ## Custom Content Box
 
@@ -111,7 +121,7 @@ You can add an icon to your ContentBox:
 ::ContentBox{bgColor="primary" bgShade="800" borderColor="primary" borderShade="600" icon=true iconColor="primary" iconShade="400"}
 <template #icon>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
-  <path fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm0 8.625a1.125 1.125 0 100 2.25 1.125 1.125 0 000-2.25zM15.375 12a1.125 1.125 0 112.25 0 1.125 1.125 0 01-2.25 0zM8.625 12a1.125 1.125 0 112.25 0 1.125 1.125 0 01-2.25 0z" clip-rule="evenodd" />
+<path fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm0 8.625a1.125 1.125 0 100 2.25 1.125 1.125 0 000-2.25zM15.375 12a1.125 1.125 0 112.25 0 1.125 1.125 0 01-2.25 0zM8.625 12a1.125 1.125 0 112.25 0 1.125 1.125 0 01-2.25 0z" clip-rule="evenodd" />
 </svg>
 </template>
 
@@ -153,17 +163,23 @@ Use this box when you want to draw special attention to a section of content.
 The FullWidthSection component creates horizontal sections that extend to the full width of the viewport with configurable backgrounds and padding:
 
 ::FullWidthSection{variant="default" padding="lg"}
+
 ### Default Style
+
 This is a full-width section with the default styling and large padding.
 ::
 
 ::FullWidthSection{variant="primary" padding="md"}
+
 ### Primary Style
+
 This is a full-width section with primary color styling and medium padding.
 ::
 
 ::FullWidthSection{variant="dark" padding="xl"}
+
 ### Dark Style
+
 This is a full-width section with dark styling and extra-large padding.
 ::
 
@@ -171,22 +187,22 @@ This is a full-width section with dark styling and extra-large padding.
 
 The ContentBox component accepts the following properties:
 
-| Prop | Description | Type | Default |
-|------|-------------|------|---------|
-| bgColor | Background color name | String | 'zinc' |
-| bgShade | Background color shade (100-950) | String | '800' |
-| borderColor | Border color name | String | 'zinc' |
-| borderShade | Border color shade (100-950) | String | '700' |
-| shadow | Add shadow effect | Boolean | false |
-| icon | Show icon area | Boolean | false |
-| iconColor | Icon color name | String | (same as bgColor) |
-| iconShade | Icon color shade (100-950) | String | '400' |
+| Prop        | Description                      | Type    | Default           |
+| ----------- | -------------------------------- | ------- | ----------------- |
+| bgColor     | Background color name            | String  | 'zinc'            |
+| bgShade     | Background color shade (100-950) | String  | '800'             |
+| borderColor | Border color name                | String  | 'zinc'            |
+| borderShade | Border color shade (100-950)     | String  | '700'             |
+| shadow      | Add shadow effect                | Boolean | false             |
+| icon        | Show icon area                   | Boolean | false             |
+| iconColor   | Icon color name                  | String  | (same as bgColor) |
+| iconShade   | Icon color shade (100-950)       | String  | '400'             |
 
 ::ProseButtonGroup
-  ::ProseButton{to="/" variant="secondary"}
-    Back to Home
-  ::
-  ::ProseButton{to="/products" variant="primary"}
-    View Products
-  ::
-:: 
+::ProseButton{to="/" variant="secondary"}
+Back to Home
+::
+::ProseButton{to="/products" variant="primary"}
+View Products
+::
+::

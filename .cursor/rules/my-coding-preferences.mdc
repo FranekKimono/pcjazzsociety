@@ -31,3 +31,21 @@ alwaysApply: true
 - Consider side effects and impacts on other components
 - Preserve existing functionality unless specifically changing it
 - NEVER modify .env files without explicit confirmation
+
+## ContentDoc Deprecation
+
+The `<ContentDoc>` component is no longer available in Nuxt Content v3. In this version, all content should be rendered using the `<ContentRenderer>` component instead. The `<ContentDoc>`, `<ContentList>`, `<ContentNavigation>`, and `<ContentQuery>` components have been dropped in v3. If you previously used `<ContentDoc>`, you should now fetch your content using the new query API (`queryCollection`) and render it with `<ContentRenderer>`.
+
+Example migration:
+
+```vue
+<script setup>
+const { data: post } = await useAsyncData('post', () =>
+  queryCollection('blog').path('/blog/my-post').first()
+)
+</script>
+
+<template>
+  <ContentRenderer :value="post" />
+</template>
+```
