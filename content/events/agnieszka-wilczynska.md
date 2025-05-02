@@ -33,12 +33,16 @@ duration: "1h 30m"
 
 # Tickets
 
-Purchase tickets at Evergreen Theatre Box Office (Mon-Sat 12-5pm or by phone _604.927.6555)_ or at local Polish Stores _(604.818.0650)_.
+::TwoColumn
+#left
+Purchase tickets at Evergreen Theatre Box Office <br>
+(Mon-Sat 12-5pm or by phone _604.927.6555)_ <br>
+or at local Polish Stores _(604.818.0650)_.
 <br></br>
-
-eTransfer to: info@pcjazzsociety.ca
+#right
+eTransfer to: &nbsp; &nbsp; info@pcjazzsociety.ca
 <br></br>
-eTransfer Reference: _wilczynska_
+eTransfer Reference:&nbsp;&nbsp; _wilczynska_
 <br></br>
 ::
 

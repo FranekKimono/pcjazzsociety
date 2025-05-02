@@ -25,7 +25,7 @@ Get Tickets
 
 <!-- video -->
 
-::FullWidthSection{variant="primary" patternOverlay="true" backgroundImage="/images/hero/jazz-splash-a.jpg" contentClass="w-full max-w-none px-0"}
+::FullWidthSection{variant="primary" patternOverlay="true" contentClass="w-full max-w-none px-0"}
 
 <div class="aspect-w-16 aspect-h-9">
   <iframe
@@ -40,6 +40,18 @@ Get Tickets
     class="rounded-lg shadow-lg w-full h-full"
   ></iframe>
 </div>
+
+::VideoDescription
+#title
+**"Sleep safe and warm"**&nbsp;&nbsp; _(K.Komeda/W.Młynarski)_&nbsp;&nbsp;&nbsp;
+#details
+A.Wilczyńska - vocals &nbsp;&nbsp;
+A. Jagodziński - piano &nbsp;&nbsp;
+A. Cegielski - bass &nbsp;&nbsp;
+Cz. Bratkowski - drums &nbsp;&nbsp;
+Sinfonia Viva &nbsp;&nbsp;
+T. Radziwiniwicz - cond. &nbsp;&nbsp;
+::
 ::
 
 <!-- Membership -->
