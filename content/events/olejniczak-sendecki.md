@@ -22,7 +22,7 @@ genre: "Jazz" # PLACEHOLDER - Update if needed
 duration: "1h 30m" # PLACEHOLDER - Update if needed
 ---
 
-::FullWidthSection{ backgroundImage="/images/events/olejniczak-sendecki-2016/olejniczak-sendecki.jpg" padding="none" imageDisplayMode="contain" className="min-h-[400px]" }
+::FullWidthSection{ variant="dark" patternOverlay="true" backgroundImage="/images/events/olejniczak-sendecki-2016/olejniczak-sendecki.jpg" padding="none" imageDisplayMode="contain" className="min-h-[400px]" }
 ::TwoColumn
 #left
 <br><br><br/>

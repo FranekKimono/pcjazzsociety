@@ -15,21 +15,21 @@ ogImage: /images/pc-jazzfest-logo-color.png
 ::TwoColumnAlt
 #left
 <br></br>
-[![Sendecki-Siegel Jazz Duo Poster](/images/events/sendecki-spiegel-2023/sendecki-spiegel.jpg){width="600"}](/gallery/sendecki-siegel)
+[![Sendecki-Spiegel Jazz Duo Poster](/images/events/sendecki-spiegel-2023/sendecki-spiegel.jpg){width="600"}](/gallery/sendecki-spiegel)
 #right
 <br>
 
-# [Sendecki-Siegel Jazz Duo](/gallery/sendecki-siegel)
+# [Sendecki-Spiegel Jazz Duo](/gallery/sendecki-spiegel-2023)
 
 V.A. Sendecki - piano<br>
-J.Siegel - drums
+J.Spiegel - drums
 
 Norman Rothstein Theatre, Vancouver<br>
 April 14, 2023
 
 <br>
 
-::ProseButton{to="/gallery/sendecki-siegel" variant="secondary"}
+::ProseButton{to="/events/sendecki-spiegel-2023" variant="secondary"}
 View Details
 ::
 
@@ -37,11 +37,11 @@ View Details
 ::TwoColumnAlt
 #left
 <br></br>
-[![Agnieszka Wilczyńska performing live](/images/events/agnieszka-wilczynska-2025/wilczynska.jpg){width="600"}](/gallery/agnieszka-wilczynska)
+[![Agnieszka Wilczyńska performing live](/images/events/agnieszka-wilczynska-2025/wilczynska.jpg){width="600"}](/events/agnieszka-wilczynska)
 #right
 <br>
 
-# [Agnieszka Wilczyńska](/gallery/agnieszka-wilczynska)
+# [Agnieszka Wilczyńska](/events/agnieszka-wilczynska)
 
 Members TBD
 Venue TBD
@@ -49,7 +49,7 @@ Date TBD (Past)
 
 <br>
 
-::ProseButton{to="/gallery/agnieszka-wilczynska" variant="secondary"}
+::ProseButton{to="/events/agnieszka-wilczynska" variant="secondary"}
 View Details
 ::
 
@@ -70,7 +70,7 @@ Date TBD (Past)<br>
 
 <br>
 
-::ProseButton{to="/gallery/olejniczak-sendecki" variant="secondary"}
+::ProseButton{to="/events/olejniczak-sendecki" variant="secondary"}
 View Details
 ::
 
@@ -95,7 +95,7 @@ April 1, 2022
 
 <br>
 
-::ProseButton{to="/gallery/jagodzinski-trio" variant="secondary"}
+::ProseButton{to="/events/jagodzinski-trio" variant="secondary"}
 View Details
 ::
 
@@ -118,6 +118,29 @@ Jan 25th, 2020
 
 <br>
 
-::ProseButton{to="/gallery/jazz-ball-2020" variant="secondary"}
+::ProseButton{to="/events/jazz-ball-2020" variant="secondary"}
+View Details
+::
+
+::FullWidthSection{variant="dark" padding="sm" patternOverlay="true"}
+::TwoColumnAlt
+#left
+<br></br>
+[![String Connection Live](/images/events/string-connection-2012/string-connection.jpg){width="600"}](/events/string-connection-2012)
+
+#right
+<br>
+
+# [String Connection Live](/events/string-connection-2012)
+
+String Connection
+
+Terry Fox Theatre, Port Coquitlam<br>
+
+March 23, 2012
+
+<br>
+
+::ProseButton{to="/events/string-connection-2012" variant="secondary"}
 View Details
 ::

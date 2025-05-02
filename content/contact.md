@@ -14,9 +14,9 @@ sitemap:
 #left
 For more information, please contact us.
 
-&nbsp;&nbsp;&nbsp;&nbsp;[info@example.com](mailto:info@pcjazzsociety.ca)
+&nbsp;&nbsp;&nbsp;&nbsp;[info@pcjazzsociety.ca](mailto:info@pcjazzsociety.ca)
 
-&nbsp;&nbsp;&nbsp;&nbsp;[+1 (604) 123-4567](tel:604-984-7857)
+&nbsp;&nbsp;&nbsp;&nbsp;[+1 (604) 984-7857](tel:604-984-7857)
 #right
 Polish Canadian Jazz Society,<br>
 13830, 33rd Avenue, Surrey, BC<br>

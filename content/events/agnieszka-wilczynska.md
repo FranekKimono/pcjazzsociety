@@ -17,7 +17,7 @@ genre: "Jazz"
 duration: "1h 30m"
 ---
 
-::FullWidthSection{ backgroundImage="/images/events/agnieszka-wilczynska-2025/wilczynska.jpg" padding="none" imageDisplayMode="contain" contentClass="w-full max-w-none px-0" }
+::FullWidthSection{variant="dark" patternOverlay="true" backgroundImage="/images/events/agnieszka-wilczynska-2025/wilczynska.jpg" padding="none" imageDisplayMode="contain" contentClass="w-full max-w-none px-0" }
 ::TwoColumn
 #left
 <br><br><br/>
