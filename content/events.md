@@ -7,16 +7,17 @@ ogImage: /images/pc-jazzfest-logo-color.png
 
 <br><br>
 
-# [<span class="text-5xl text-primary-100">Get Tickets for Upcoming Events</span>]
+# [<span class="text-5xl text-primary-100">Upcoming Events</span>]
 
 <br><br>
 ::FullWidthSection{variant="default" padding="sm" patternOverlay="true"}
 
-::TwoColumn
+::TwoColumnAlt
 #left
 <br></br>
 [![Agnieszka Wilczyńska performing live](/images/events/agnieszka-wilczynska-2025/wilczynska.jpg){width="600"}](/events/agnieszka-wilczynska)
 #right
+<br>
 
 # [Agnieszka Wilczyńska](/events/agnieszka-wilczynska)
 
@@ -32,12 +33,13 @@ Get Ticket
 ::
 
 ::FullWidthSection{variant="dark" padding="sm" patternOverlay="true"}
-::TwoColumn
+::TwoColumnAlt
 #left
 <br></br>
-[![Adam Olejniczak & Vladyslav Sendecki](/images/events/olejniczak-sendecki/olejniczak-sendecki.jpg){width="600"}](/events/olejniczak-sendecki)
+[![Adam Olejniczak & Vladyslav Sendecki](/images/events/olejniczak-sendecki-2016/olejniczak-sendecki.jpg){width="600"}](/events/olejniczak-sendecki)
 
 #right
+<br>
 
 # [Olejniczak-Sendecki Jazz Quartet](/events/olejniczak-sendecki)
 

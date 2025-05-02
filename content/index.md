@@ -25,7 +25,7 @@ Get Tickets
 
 <!-- video -->
 
-::FullWidthSection{variant="primary" patternOverlay="true" contentClass="w-full max-w-none px-0"}
+::FullWidthSection{variant="primary" patternOverlay="false" contentClass="w-full max-w-none px-0"}
 
 <div class="aspect-w-16 aspect-h-9">
   <iframe
@@ -80,7 +80,7 @@ Buy Tickets
 ::
 
 #right
-[![Adam Olejniczak & Vladyslav Sendecki](/images/events/olejniczak-sendecki/olejniczak-sendecki.jpg){width="600" class="rounded-lg shadow-lg"}](/events/olejniczak-sendecki)
+[![Adam Olejniczak & Vladyslav Sendecki](/images/events/olejniczak-sendecki-2016/olejniczak-sendecki.jpg){width="600" class="rounded-lg shadow-lg"}](/events/olejniczak-sendecki)
 
 ::ProseButton{to="/events/olejniczak-sendecki" variant="primary"}
 Buy Tickets
