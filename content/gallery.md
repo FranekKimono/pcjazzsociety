@@ -83,7 +83,7 @@ View Details
 #right
 <br>
 
-# [Andrzej Jagodzinski Trio](/gallery/jagodzinski-trio)
+# [Andrzej Jagodzinski Trio](/gallery/jagodzinski-trio-2022)
 
 A. Jagodzinski - piano<br>
 A. Cegielski - bass<br>
@@ -95,7 +95,7 @@ April 1, 2022
 
 <br>
 
-::ProseButton{to="/events/jagodzinski-trio" variant="secondary"}
+::ProseButton{to="/events/jagodzinski-trio-2022" variant="secondary"}
 View Details
 ::
 
