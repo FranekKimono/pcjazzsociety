@@ -57,16 +57,6 @@ T. Radziwiniwicz - cond. &nbsp;&nbsp;
 <!-- Membership -->
 
 <br>
-
-<!-- #video -->
-<!-- EMBED VIDEO -->
-<!-- https://www.youtube.com/watch?v=HrmEXkicjwI -->
-<!-- Support Polish-Canadian jazz and enjoy exclusive benefits! As a member, you'll get access to special events, discounts on tickets, networking opportunities, and contribute to fostering cultural exchange through the vibrant sound of jazz. Join our passionate community today!
-
-::ProseButtonGroup{class="w-full justify-end"}
-::ProseButton{to="/membership" variant="primary" size="xl"}
-Join the Society -->
-
 <!-- events -->
 
 # UPCOMING EVENTS
@@ -128,20 +118,6 @@ Support Polish-Canadian jazz and enjoy exclusive benefits! As a member, you'll g
 ::ProseButtonGroup{class="w-full justify-end"}
 ::ProseButton{to="/membership" variant="primary" size="xl"}
 Join the Society
-
-::
-
-## Featured Events
-
-::TwoColumn
-#left
-
-### Jazz Café and Jam Session
-
-Polish Canadian Jazz Society would like to invite all jazz enthusiasts and music lovers to our next jame session....
-
-#right
-
 ::
 
 ::FullWidthSection{variant="light" padding="sm" patternOverlay="true"}

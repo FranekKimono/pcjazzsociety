@@ -271,6 +271,29 @@ March 14, 2014
 View Details
 ::
 
+<!-- NAMYSLOWSKI KOCHAN 2013 - START -->
+
+::FullWidthSection{variant="default" padding="sm" patternOverlay="true"}
+::TwoColumnAlt
+#left
+<br></br>
+[![Zbigniew Namysłowski & Jacek Kochan Quartet](/images/events/namyslowski-kochan-2013/namyslowski-kochan.jpg){width="600"}](/events/namyslowski-kochan-2013)
+
+#right
+<br>
+
+# [Namysłowski & Kochan Quartet](/events/namyslowski-kochan-2013)
+
+Vancouver<br>
+
+March 22nd, 2013
+
+<br>
+
+::ProseButton{to="/events/namyslowski-kochan-2013" variant="secondary"}
+View Details
+::
+
 <!-- JAZZ CAFE SEPT 2012 - START -->
 
 ::FullWidthSection{variant="dark" padding="sm" patternOverlay="true"}
