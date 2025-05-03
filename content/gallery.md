@@ -150,6 +150,29 @@ Nov 8th, 2015
 View Details
 ::
 
+<!-- KOCHAN BALDYCH 2015 - START -->
+
+::FullWidthSection{variant="dark" padding="sm" patternOverlay="true"}
+::TwoColumnAlt
+#left
+<br></br>
+[![Jacek Kochan & Adam Bałdych Quartet](/images/events/kochan-bialych-2015/kochan-bialych.jpg){width="600"}](/events/kochan-bialych-2015)
+
+#right
+<br>
+
+# [Jacek Kochan & Adam Bałdych Quartet](/events/kochan-bialych-2015)
+
+Norman Rothstein Theatre, Vancouver<br>
+
+March 20th, 2015
+
+<br>
+
+::ProseButton{to="/events/kochan-bialych-2015" variant="secondary"}
+View Details
+::
+
 <!-- JAZZ BALL 2015 - START -->
 
 ::FullWidthSection{variant="default" padding="sm" patternOverlay="true"}
