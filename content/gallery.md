@@ -11,6 +11,8 @@ ogImage: /images/pc-jazzfest-logo-color.png
 
 <br><br>
 
+<!-- SENDECKI SPIEGEL 2023 - START -->
+
 ::FullWidthSection{variant="default" padding="sm" patternOverlay="true"}
 ::TwoColumnAlt
 #left
@@ -21,10 +23,8 @@ ogImage: /images/pc-jazzfest-logo-color.png
 
 # [Sendecki-Spiegel Jazz Duo](/gallery/sendecki-spiegel-2023)
 
-V.A. Sendecki - piano<br>
-J.Spiegel - drums
-
 Norman Rothstein Theatre, Vancouver<br>
+
 April 14, 2023
 
 <br>
@@ -32,6 +32,8 @@ April 14, 2023
 ::ProseButton{to="/events/sendecki-spiegel-2023" variant="secondary"}
 View Details
 ::
+
+<!-- OLEJNICZAK SENDECKI START -->
 
 ::FullWidthSection{variant="dark" padding="sm" patternOverlay="true"}
 ::TwoColumnAlt
@@ -44,15 +46,17 @@ View Details
 
 # [Olejniczak-Sendecki Jazz Quartet](/gallery/olejniczak-sendecki)
 
-Members TBD<br>
 Venue TBD<br>
-Date TBD (Past)<br>
+
+Oct 2023<br>
 
 <br>
 
 ::ProseButton{to="/events/olejniczak-sendecki" variant="secondary"}
 View Details
 ::
+
+<!-- JAGODZINSKI TRIO 2022 START -->
 
 ::FullWidthSection{variant="default" padding="sm" patternOverlay="true"}
 ::TwoColumnAlt
@@ -65,12 +69,8 @@ View Details
 
 # [Andrzej Jagodzinski Trio](/gallery/jagodzinski-trio-2022)
 
-A. Jagodzinski - piano<br>
-A. Cegielski - bass<br>
-Cz. K. Bartkowski - drums<br>
-D. Miskiewicz - vocal
-
 Norman Rothstein Theatre, Vancouver<br>
+
 April 1, 2022
 
 <br>
@@ -78,6 +78,8 @@ April 1, 2022
 ::ProseButton{to="/events/jagodzinski-trio-2022" variant="secondary"}
 View Details
 ::
+
+<!-- JAZZ BALL 2020 - START -->
 
 ::FullWidthSection{variant="dark" padding="sm" patternOverlay="true"}
 ::TwoColumnAlt
@@ -90,7 +92,7 @@ View Details
 
 # [Jazz Ball 2020](/gallery/jazz-ball-2020)
 
-Bonnie Northgraves All Stars
+Bonnie Northgraves All Stars<br>
 
 Polish Community Hall ZGODA, Vancouver<br>
 
@@ -101,6 +103,79 @@ Jan 25th, 2020
 ::ProseButton{to="/events/jazz-ball-2020" variant="secondary"}
 View Details
 ::
+
+<!-- KRYSTYNA STANKO 2015 - START -->
+
+::FullWidthSection{variant="default" padding="sm" patternOverlay="true"}
+::TwoColumnAlt
+#left
+<br></br>
+[![Krystyna Stańko Ensemble](/images/events/krystyna-stanko-2015/krystyna-stanko.jpg){width="600"}](/events/krystyna-stanko-2015)
+
+#right
+<br>
+
+# [Krystyna Stańko Ensemble](/events/krystyna-stanko-2015)
+
+Inlet Theatre, Port Moody<br>
+
+Nov 8th, 2015
+
+<br>
+
+::ProseButton{to="/events/krystyna-stanko-2015" variant="secondary"}
+View Details
+::
+
+<!-- JAZZ BALL 2015 - START -->
+
+::FullWidthSection{variant="default" padding="sm" patternOverlay="true"}
+::TwoColumnAlt
+#left
+<br></br>
+[![Jazz Ball 2015](/images/events/jazz-ball-2015/jazz-ball-2015.jpg){width="600"}](/events/jazz-ball-2015)
+
+#right
+<br>
+
+# [Jazz Ball 2015](/events/jazz-ball-2015)
+
+Arntzen's Three Generations & Hot Mammas<br>
+
+Queensborough Community Centre, New Westminster<br>
+
+Jan 31st, 2015
+
+<br>
+
+::ProseButton{to="/events/jazz-ball-2015" variant="secondary"}
+View Details
+::
+
+<!-- ATOM STRING QUARTET 2014 - START -->
+
+::FullWidthSection{variant="default" padding="sm" patternOverlay="true"}
+::TwoColumnAlt
+#left
+<br></br>
+[![ATOM String Quartet](/images/events/atom-string-quartet-2014/atom-string-quartet.jpg){width="600"}](/events/atom-string-quartet-2014)
+
+#right
+<br>
+
+# [ATOM String Quartet](/events/atom-string-quartet-2014)
+
+Evergreen Theatre, Coquitlam<br>
+
+March 14, 2014
+
+<br>
+
+::ProseButton{to="/events/atom-string-quartet-2014" variant="secondary"}
+View Details
+::
+
+<!-- STRING CONNECTION LIVE 2012 - START -->
 
 ::FullWidthSection{variant="default" padding="sm" patternOverlay="true"}
 ::TwoColumnAlt
@@ -113,8 +188,6 @@ View Details
 
 # [String Connection Live](/events/string-connection-2012)
 
-String Connection
-
 Terry Fox Theatre, Port Coquitlam<br>
 
 March 23, 2012
@@ -124,6 +197,83 @@ March 23, 2012
 ::ProseButton{to="/events/string-connection-2012" variant="secondary"}
 View Details
 ::
+
+<!-- JAZZ CAFE NOV 2011 - START -->
+
+::FullWidthSection{variant="dark" padding="sm" patternOverlay="true"}
+::TwoColumnAlt
+#left
+<br></br>
+[![Jazz Cafe November 2011](/images/events/jazz-cafe-nov-2011/jazz-cafe.jpg){width="600"}](/events/jazz-cafe-nov-2011)
+
+#right
+<br>
+
+# [Jazz Café (Nov 2011)](/events/jazz-cafe-nov-2011)
+
+Sharon Minemoto & Eli Bennett<br>
+
+Polish Community Centre ZGODA, Vancouver<br>
+
+Nov 4th, 2011
+
+<br>
+
+::ProseButton{to="/events/jazz-cafe-nov-2011" variant="secondary"}
+View Details
+::
+
+<!-- JAZZ CAFE SEPT 2011 - START -->
+
+::FullWidthSection{variant="default" padding="sm" patternOverlay="true"}
+::TwoColumnAlt
+#left
+<br></br>
+[![Jazz Cafe September 2011](/images/events/jazz-cafe-sept-2011/jazz-cafe.jpg){width="600"}](/events/jazz-cafe-sept-2011)
+
+#right
+<br>
+
+# [Jazz Café (Sept 2011)](/events/jazz-cafe-sept-2011)
+
+Jam Session<br>
+
+Polish Community Centre ZGODA, Vancouver<br>
+
+Sept 23rd, 2011
+
+<br>
+
+::ProseButton{to="/events/jazz-cafe-sept-2011" variant="secondary"}
+View Details
+::
+
+<!-- JAZZ BALL 2011 - START -->
+
+::FullWidthSection{variant="dark" padding="sm" patternOverlay="true"}
+::TwoColumnAlt
+#left
+<br></br>
+[![Jazz Ball 2011](/images/events/jazz-ball-2011/jazz-ball-2011.jpg){width="600"}](/gallery/jazz-ball-2011)
+
+#right
+<br>
+
+# [Jazz Ball 2011](/gallery/jazz-ball-2011)
+
+Evan Arntzen Septet<br>
+
+Polish Community Hall ZGODA, Vancouver<br>
+
+Jan 22nd, 2011
+
+<br>
+
+::ProseButton{to="/events/jazz-ball-2011" variant="secondary"}
+View Details
+::
+
+<!-- JAGODZINSKI TRIO 2010 - START -->
 
 ::FullWidthSection{variant="dark" padding="sm" patternOverlay="true"}
 ::TwoColumnAlt
@@ -136,12 +286,8 @@ View Details
 
 # [Andrzej Jagodzinski Trio](/gallery/jagodzinski-trio-2010)
 
-A. Jagodzinski - piano<br>
-A. Cegielski - bass<br>
-Cz. K. Bartkowski - drums<br>
-D. Miskiewicz - vocal
-
 The Cellar Jazz Club, Vancouver<br>
+
 October, 2010
 
 <br>
@@ -150,7 +296,7 @@ October, 2010
 View Details
 ::
 
-<!-- MOZDZER -->
+<!-- MOZDZER 2010 START -->
 
 ::FullWidthSection{variant="default" padding="sm" patternOverlay="true"}
 ::TwoColumnAlt
@@ -161,13 +307,11 @@ View Details
 #right
 <br>
 
-# [String Connection Live](/events/leszek-mozdzer-2010)
+# [Leszek Możdżer](/events/leszek-mozdzer-2010)
 
-String Connection
+Centennial Theatre Centre, Vancouver<br>
 
-Terry Fox Theatre, Port Coquitlam<br>
-
-March 23, 2012
+May 9, 2010
 
 <br>
 

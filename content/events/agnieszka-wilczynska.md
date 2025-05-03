@@ -40,6 +40,9 @@ Purchase tickets at Evergreen Theatre Box Office <br>
 or at local Polish Stores _(604.818.0650)_.
 <br></br>
 #right
+ticket price: _$40.00_ <br>
+students: _$30.00_
+<br></br>
 eTransfer to: &nbsp; &nbsp; info@pcjazzsociety.ca
 <br></br>
 eTransfer Reference:&nbsp;&nbsp; _wilczynska_
