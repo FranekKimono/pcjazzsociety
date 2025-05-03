@@ -127,6 +127,31 @@ April 5th, 2019
 View Details
 ::
 
+<!-- JAZZ BALL 2019 - START -->
+
+::FullWidthSection{variant="dark" padding="sm" patternOverlay="true"}
+::TwoColumnAlt
+#left
+<br></br>
+[![Jazz Ball 2019](/images/events/jazz-ball-2019/jazz-ball.jpg){width="600"}](/events/jazz-ball-2019)
+
+#right
+<br>
+
+# [Jazz Ball 2019](/events/jazz-ball-2019)
+
+Bonnie Northgraves All Stars<br>
+
+St. Mary's Ukrainian Catholic Centre, Vancouver<br>
+
+Feb 16th, 2019
+
+<br>
+
+::ProseButton{to="/events/jazz-ball-2019" variant="secondary"}
+View Details
+::
+
 <!-- KRYSTYNA STANKO 2015 - START -->
 
 ::FullWidthSection{variant="default" padding="sm" patternOverlay="true"}
@@ -147,6 +172,31 @@ Nov 8th, 2015
 <br>
 
 ::ProseButton{to="/events/krystyna-stanko-2015" variant="secondary"}
+View Details
+::
+
+<!-- JAZZ BALL 2019 - START -->
+
+::FullWidthSection{variant="dark" padding="sm" patternOverlay="true"}
+::TwoColumnAlt
+#left
+<br></br>
+[![Jazz Ball 2019](/images/events/jazz-ball-2019/jazz-ball.jpg){width="600"}](/events/jazz-ball-2019)
+
+#right
+<br>
+
+# [Jazz Ball 2019](/events/jazz-ball-2019)
+
+Bonnie Northgraves All Stars<br>
+
+St. Mary's Ukrainian Catholic Centre, Vancouver<br>
+
+Feb 16th, 2019
+
+<br>
+
+::ProseButton{to="/events/jazz-ball-2019" variant="secondary"}
 View Details
 ::
 
