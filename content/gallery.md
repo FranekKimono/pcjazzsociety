@@ -37,26 +37,6 @@ View Details
 ::TwoColumnAlt
 #left
 <br></br>
-[![Agnieszka Wilczyńska performing live](/images/events/agnieszka-wilczynska-2025/wilczynska.jpg){width="600"}](/events/agnieszka-wilczynska)
-#right
-<br>
-
-# [Agnieszka Wilczyńska](/events/agnieszka-wilczynska)
-
-Members TBD
-Venue TBD
-Date TBD (Past)
-
-<br>
-
-::ProseButton{to="/events/agnieszka-wilczynska" variant="secondary"}
-View Details
-::
-
-::FullWidthSection{variant="default" padding="sm" patternOverlay="true"}
-::TwoColumnAlt
-#left
-<br></br>
 [![Adam Olejniczak & Vladyslav Sendecki](/images/events/olejniczak-sendecki-2016/olejniczak-sendecki.jpg){width="600"}](/gallery/olejniczak-sendecki)
 
 #right
@@ -74,7 +54,7 @@ Date TBD (Past)<br>
 View Details
 ::
 
-::FullWidthSection{variant="dark" padding="sm" patternOverlay="true"}
+::FullWidthSection{variant="default" padding="sm" patternOverlay="true"}
 ::TwoColumnAlt
 #left
 <br></br>
@@ -99,7 +79,7 @@ April 1, 2022
 View Details
 ::
 
-::FullWidthSection{variant="default" padding="sm" patternOverlay="true"}
+::FullWidthSection{variant="dark" padding="sm" patternOverlay="true"}
 ::TwoColumnAlt
 #left
 <br></br>
@@ -122,7 +102,7 @@ Jan 25th, 2020
 View Details
 ::
 
-::FullWidthSection{variant="dark" padding="sm" patternOverlay="true"}
+::FullWidthSection{variant="default" padding="sm" patternOverlay="true"}
 ::TwoColumnAlt
 #left
 <br></br>
@@ -142,5 +122,55 @@ March 23, 2012
 <br>
 
 ::ProseButton{to="/events/string-connection-2012" variant="secondary"}
+View Details
+::
+
+::FullWidthSection{variant="dark" padding="sm" patternOverlay="true"}
+::TwoColumnAlt
+#left
+<br></br>
+[![Andrzej Jagodzinski Trio](/images/events/jagodzinski-trio-2010/jagodzinski-trio.jpg){width="600"}](/gallery/jagodzinski-trio-2010)
+
+#right
+<br>
+
+# [Andrzej Jagodzinski Trio](/gallery/jagodzinski-trio-2010)
+
+A. Jagodzinski - piano<br>
+A. Cegielski - bass<br>
+Cz. K. Bartkowski - drums<br>
+D. Miskiewicz - vocal
+
+The Cellar Jazz Club, Vancouver<br>
+October, 2010
+
+<br>
+
+::ProseButton{to="/events/jagodzinski-trio-2010" variant="secondary"}
+View Details
+::
+
+<!-- MOZDZER -->
+
+::FullWidthSection{variant="default" padding="sm" patternOverlay="true"}
+::TwoColumnAlt
+#left
+<br></br>
+[![String Connection Live](/images/events/leszek-mozdzer-2010/mozdzer.jpg){width="600"}](/events/leszek-mozdzer-2010)
+
+#right
+<br>
+
+# [String Connection Live](/events/leszek-mozdzer-2010)
+
+String Connection
+
+Terry Fox Theatre, Port Coquitlam<br>
+
+March 23, 2012
+
+<br>
+
+::ProseButton{to="/events/leszek-mozdzer-2010" variant="secondary"}
 View Details
 ::
