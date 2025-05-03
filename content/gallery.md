@@ -175,6 +175,31 @@ March 14, 2014
 View Details
 ::
 
+<!-- JAZZ CAFE SEPT 2012 - START -->
+
+::FullWidthSection{variant="dark" padding="sm" patternOverlay="true"}
+::TwoColumnAlt
+#left
+<br></br>
+[![Jazz Cafe September 2012](/images/events/jazz-cafe-sept-2012/jazz-cafe.jpg){width="600"}](/events/jazz-cafe-sept-2012)
+
+#right
+<br>
+
+# [Jazz Café (Sept 2012)](/events/jazz-cafe-sept-2012)
+
+Jesse Cahill, Bill Coon, Andre Lachance Trio & Jam Session<br>
+
+Polish Community Centre ZGODA, Vancouver<br>
+
+Sept 14th, 2012
+
+<br>
+
+::ProseButton{to="/events/jazz-cafe-sept-2012" variant="secondary"}
+View Details
+::
+
 <!-- STRING CONNECTION LIVE 2012 - START -->
 
 ::FullWidthSection{variant="default" padding="sm" patternOverlay="true"}
