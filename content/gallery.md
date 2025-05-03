@@ -104,6 +104,29 @@ Jan 25th, 2020
 View Details
 ::
 
+<!-- WYLEZOL WIECEK 2019 - START -->
+
+::FullWidthSection{variant="default" padding="sm" patternOverlay="true"}
+::TwoColumnAlt
+#left
+<br></br>
+[![Piotr Wyleżoł & Kuba Więcek Trios](/images/events/wylezol-wiecek-2019/wylezol-wiecek.jpg){width="600"}](/events/wylezol-wiecek-2019)
+
+#right
+<br>
+
+# [Piotr Wyleżoł Trio & Kuba Więcek Trio](/events/wylezol-wiecek-2019)
+
+Norman Rothstein Theatre, Vancouver<br>
+
+April 5th, 2019
+
+<br>
+
+::ProseButton{to="/events/wylezol-wiecek-2019" variant="secondary"}
+View Details
+::
+
 <!-- KRYSTYNA STANKO 2015 - START -->
 
 ::FullWidthSection{variant="default" padding="sm" patternOverlay="true"}

@@ -38,6 +38,33 @@ On April 1, 2022, the Norman Rothstein Theatre hosted one of Poland's most accla
 <br></br>
 ::
 
+<!-- video -->
+
+::FullWidthSection{variant="primary" patternOverlay="false" contentClass="w-full max-w-none px-0"}
+
+<div class="aspect-w-16 aspect-h-9">
+  <iframe
+    src="https://www.youtube.com/embed/x8umXimQbVI"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen
+    width="100%"
+    height="100%"
+    class="rounded-lg shadow-lg w-full h-full"
+  ></iframe>
+</div>
+
+::VideoDescription
+#details
+Andrzej Jagodziński - piano &nbsp;&nbsp;
+Adam Cegielski - bass &nbsp;&nbsp;
+Czesław K. Bartkowski - drums &nbsp;&nbsp;
+Dorota Miśkiewicz - vocal &nbsp;&nbsp;
+::
+::
+
 ::FullWidthSection{variant="primary" patternOverlay="true" backgroundImage="/images/hero/jazz-splash-b.jpg" padding="sm" contentClass="w-full max-w-none px-0"}
 
 # About the Band
@@ -54,7 +81,7 @@ Since its formation, the Andrzej Jagodzinski Trio has performed at prestigious v
 
 ::FullWidthSection{variant="primary" patternOverlay="true" padding="sm"}
 
-<!-- # Gallery -->
+# Gallery
 
 ::GalleryGrid
 :::GalleryItem{src="/images/events/jagodzinski-trio-2022/gallery/01.jpg" alt=""}
