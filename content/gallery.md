@@ -152,6 +152,29 @@ Feb 16th, 2019
 View Details
 ::
 
+<!-- ARTUR DUTKIEWICZ JAZZ TRIO 2016 - START -->
+
+::FullWidthSection{variant="dark" padding="sm" patternOverlay="true"}
+::TwoColumnAlt
+#left
+<br></br>
+[![Artur Dutkiewicz Jazz Trio](/images/events/artur-dutkiewicz-jazz-trio-2016/jazz-trio-2016.jpg){width="600"}](/events/artur-dutkiewicz-jazz-trio-2016)
+
+#right
+<br>
+
+# [Artur Dutkiewicz Jazz Trio](/events/artur-dutkiewicz-jazz-trio-2016)
+
+Amphitheatre, Vancouver, BC<br>
+
+Nov 6th, 2016
+
+<br>
+
+::ProseButton{to="/events/artur-dutkiewicz-jazz-trio-2016" variant="secondary"}
+View Details
+::
+
 <!-- ATOM SENDECKI 2018 - START -->
 
 ::FullWidthSection{variant="default" padding="sm" patternOverlay="true"}
@@ -200,9 +223,34 @@ Jan 27th, 2018
 View Details
 ::
 
-<!-- KRYSTYNA STANKO 2015 - START -->
+<!-- JAZZ BALL 2017 - START -->
 
 ::FullWidthSection{variant="default" padding="sm" patternOverlay="true"}
+::TwoColumnAlt
+#left
+<br></br>
+[![Jazz Ball 2017](/images/events/jazz-ball-2017/jazz-ball-2017.jpg){width="600"}](/events/jazz-ball-2017)
+
+#right
+<br>
+
+# [Jazz Ball 2017](/events/jazz-ball-2017)
+
+Lloyd Arntzen Three Generations Dixieland Band<br>
+
+Vancouver<br>
+
+Jan 28th, 2017
+
+<br>
+
+::ProseButton{to="/events/jazz-ball-2017" variant="secondary"}
+View Details
+::
+
+<!-- KRYSTYNA STANKO 2015 - START -->
+
+::FullWidthSection{variant="dark" padding="sm" patternOverlay="true"}
 ::TwoColumnAlt
 #left
 <br></br>
@@ -225,7 +273,7 @@ View Details
 
 <!-- KOCHAN BALDYCH 2015 - START -->
 
-::FullWidthSection{variant="dark" padding="sm" patternOverlay="true"}
+::FullWidthSection{variant="default" padding="sm" patternOverlay="true"}
 ::TwoColumnAlt
 #left
 <br></br>
@@ -248,7 +296,7 @@ View Details
 
 <!-- JAZZ BALL 2015 - START -->
 
-::FullWidthSection{variant="default" padding="sm" patternOverlay="true"}
+::FullWidthSection{variant="dark" padding="sm" patternOverlay="true"}
 ::TwoColumnAlt
 #left
 <br></br>
