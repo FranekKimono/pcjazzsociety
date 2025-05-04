@@ -175,99 +175,26 @@ Nov 6th, 2016
 View Details
 ::
 
-<!-- ATOM SENDECKI 2018 - START -->
+<!-- OLEJNICZAK-SENDECKI JAZZ QUARTET 2016 - START -->
 
 ::FullWidthSection{variant="default" padding="sm" patternOverlay="true"}
 ::TwoColumnAlt
 #left
 <br></br>
-[![ATOM String Quartet & Vladyslav Sendecki](/images/events/atom-sendecki-2018/atom-sendecki.jpg){width="600"}](/events/atom-sendecki-2018)
+[![Olejniczak-Sendecki Jazz Quartet](/images/events/jazz-quartet-2016/jazz-quartet-2016.jpg){width="600"}](/events/jazz-quartet-2016)
 
 #right
 <br>
 
-# [ATOM String Quartet & Vladyslav Sendecki](/events/atom-sendecki-2018)
+# [Olejniczak-Sendecki Jazz Quartet](/events/jazz-quartet-2016)
 
-Norman Rothstein Theatre, Vancouver<br>
+Vancouver, BC<br>
 
-October 26th, 2018
-
-<br>
-
-::ProseButton{to="/events/atom-sendecki-2018" variant="secondary"}
-View Details
-::
-
-<!-- MATEUSZ SMOCZYNSKI JAZZ QUINTET 2018 - START -->
-
-::FullWidthSection{variant="dark" padding="sm" patternOverlay="true"}
-::TwoColumnAlt
-#left
-<br></br>
-[![Mateusz Smoczyński Jazz Quintet](/images/events/jazz-quintet-2018/jazz-quintet-2018.jpg){width="600"}](/events/jazz-quintet-2018)
-
-#right
-<br>
-
-# [Mateusz Smoczyński Jazz Quintet](/events/jazz-quintet-2018)
-
-Inlet Theatre, Port Moody<br>
-
-June 15th, 2018
+April 1st, 2016
 
 <br>
 
-::ProseButton{to="/events/jazz-quintet-2018" variant="secondary"}
-View Details
-::
-
-<!-- JAZZ BALL 2018 - START -->
-
-::FullWidthSection{variant="dark" padding="sm" patternOverlay="true"}
-::TwoColumnAlt
-#left
-<br></br>
-[![Jazz Ball 2018](/images/events/jazz-ball-2018/jazz-ball-2018.jpg){width="600"}](/events/jazz-ball-2018)
-
-#right
-<br>
-
-# [Jazz Ball 2018](/events/jazz-ball-2018)
-
-Lloyd Arntzen Three Generations Dixieland Band<br>
-
-Vancouver<br>
-
-Jan 27th, 2018
-
-<br>
-
-::ProseButton{to="/events/jazz-ball-2018" variant="secondary"}
-View Details
-::
-
-<!-- JAZZ BALL 2017 - START -->
-
-::FullWidthSection{variant="default" padding="sm" patternOverlay="true"}
-::TwoColumnAlt
-#left
-<br></br>
-[![Jazz Ball 2017](/images/events/jazz-ball-2017/jazz-ball-2017.jpg){width="600"}](/events/jazz-ball-2017)
-
-#right
-<br>
-
-# [Jazz Ball 2017](/events/jazz-ball-2017)
-
-Lloyd Arntzen Three Generations Dixieland Band<br>
-
-Vancouver<br>
-
-Jan 28th, 2017
-
-<br>
-
-::ProseButton{to="/events/jazz-ball-2017" variant="secondary"}
+::ProseButton{to="/events/jazz-quartet-2016" variant="secondary"}
 View Details
 ::
 
