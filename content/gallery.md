@@ -34,7 +34,7 @@ View Details
 ::
 
 <!-- OLEJNICZAK SENDECKI START -->
-
+<!--
 ::FullWidthSection{variant="dark" padding="sm" patternOverlay="true"}
 ::TwoColumnAlt
 #left
@@ -54,7 +54,7 @@ Oct 2023<br>
 
 ::ProseButton{to="/events/olejniczak-sendecki" variant="secondary"}
 View Details
-::
+:: -->
 
 <!-- JAGODZINSKI TRIO 2022 START -->
 
@@ -195,6 +195,29 @@ October 26th, 2018
 <br>
 
 ::ProseButton{to="/events/atom-sendecki-2018" variant="secondary"}
+View Details
+::
+
+<!-- MATEUSZ SMOCZYNSKI JAZZ QUINTET 2018 - START -->
+
+::FullWidthSection{variant="dark" padding="sm" patternOverlay="true"}
+::TwoColumnAlt
+#left
+<br></br>
+[![Mateusz Smoczyński Jazz Quintet](/images/events/jazz-quintet-2018/jazz-quintet-2018.jpg){width="600"}](/events/jazz-quintet-2018)
+
+#right
+<br>
+
+# [Mateusz Smoczyński Jazz Quintet](/events/jazz-quintet-2018)
+
+Inlet Theatre, Port Moody<br>
+
+June 15th, 2018
+
+<br>
+
+::ProseButton{to="/events/jazz-quintet-2018" variant="secondary"}
 View Details
 ::
 
