@@ -41,21 +41,6 @@ Led by patriarch Lloyd Arntzen, the performance enchanted the audience with capt
 
 ::
 
-::FullWidthSection{variant="primary" patternOverlay="true" backgroundImage="/images/hero/jazz-splash-b.jpg" padding="sm" contentClass="w-full max-w-none px-0"}
-
-# About the Band
-
-## Arntzen's Three Generation Dixieland Band
-
-This unique family ensemble showcases the musical legacy of the Arntzen family across three generations of New Orleans-style jazz performers.
-
-Lloyd Arntzen, born in 1927, is a clarinetist, vocalist, bandleader, and one of the founding fathers of Vancouver's traditional jazz scene. Inducted into the B.C. Entertainment Hall of Fame, his dedication to music spans decades. The band features Lloyd alongside his sons Tom and Leif, and grandsons Evan and Miles, though other family members often join in.
-
-The Arntzens are celebrated for their melodic, swinging tunes rooted in the New Orleans tradition. They released a live CD, "3 Generations in Jazz," in 2006. The family's musical tradition, shaped in Lloyd's living room rehearsals, continues to be a vital part of Vancouver's jazz heritage.
-<br></br>
-
-::
-
 <!-- video -->
 
 ::FullWidthSection{variant="primary" patternOverlay="false" contentClass="w-full max-w-none px-0"}
@@ -69,10 +54,17 @@ The Arntzens are celebrated for their melodic, swinging tunes rooted in the New 
 
 ::
 
-::FullWidthSection{variant="primary" patternOverlay="true" padding="sm"}
+::FullWidthSection{variant="primary" patternOverlay="true" backgroundImage="/images/hero/jazz-splash-b.jpg" padding="sm" contentClass="w-full max-w-none px-0"}
 
-# Gallery from the Evening
+# About the Band
 
-_No photos available for this event, please enjoy the video above._
+## Arntzen's Three Generation Dixieland Band
+
+This unique family ensemble showcases the musical legacy of the Arntzen family across three generations of New Orleans-style jazz performers.
+
+Lloyd Arntzen, born in 1927, is a clarinetist, vocalist, bandleader, and one of the founding fathers of Vancouver's traditional jazz scene. Inducted into the B.C. Entertainment Hall of Fame, his dedication to music spans decades. The band features Lloyd alongside his sons Tom and Leif, and grandsons Evan and Miles, though other family members often join in.
+
+The Arntzens are celebrated for their melodic, swinging tunes rooted in the New Orleans tradition. They released a live CD, "3 Generations in Jazz," in 2006. The family's musical tradition, shaped in Lloyd's living room rehearsals, continues to be a vital part of Vancouver's jazz heritage.
+<br></br>
 
 ::

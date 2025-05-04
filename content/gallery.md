@@ -340,6 +340,31 @@ Jan 26th, 2013
 View Details
 ::
 
+<!-- JAZZ CAFE NOV 2012 - START -->
+
+::FullWidthSection{variant="default" padding="sm" patternOverlay="true"}
+::TwoColumnAlt
+#left
+<br></br>
+[![Jazz Cafe November 2012](/images/events/jazz-cafe-nov-2012/jazz-cafe-nov-2012.jpg){width="600"}](/events/jazz-cafe-nov-2012)
+
+#right
+<br>
+
+# [Jazz Café (Nov 2012)](/events/jazz-cafe-nov-2012)
+
+Nightcrawlers<br>
+
+SPK Hall, Vancouver<br>
+
+Nov 2012
+
+<br>
+
+::ProseButton{to="/events/jazz-cafe-nov-2012" variant="secondary"}
+View Details
+::
+
 <!-- JAZZ CAFE SEPT 2012 - START -->
 
 ::FullWidthSection{variant="dark" padding="sm" patternOverlay="true"}
