@@ -175,6 +175,31 @@ October 26th, 2018
 View Details
 ::
 
+<!-- JAZZ BALL 2018 - START -->
+
+::FullWidthSection{variant="dark" padding="sm" patternOverlay="true"}
+::TwoColumnAlt
+#left
+<br></br>
+[![Jazz Ball 2018](/images/events/jazz-ball-2018/jazz-ball-2018.jpg){width="600"}](/events/jazz-ball-2018)
+
+#right
+<br>
+
+# [Jazz Ball 2018](/events/jazz-ball-2018)
+
+Lloyd Arntzen Three Generations Dixieland Band<br>
+
+Vancouver<br>
+
+Jan 27th, 2018
+
+<br>
+
+::ProseButton{to="/events/jazz-ball-2018" variant="secondary"}
+View Details
+::
+
 <!-- KRYSTYNA STANKO 2015 - START -->
 
 ::FullWidthSection{variant="default" padding="sm" patternOverlay="true"}
@@ -289,6 +314,31 @@ March 22nd, 2013
 <br>
 
 ::ProseButton{to="/events/namyslowski-kochan-2013" variant="secondary"}
+View Details
+::
+
+<!-- JAZZ BALL 2013 - START -->
+
+::FullWidthSection{variant="dark" padding="sm" patternOverlay="true"}
+::TwoColumnAlt
+#left
+<br></br>
+[![Jazz Ball 2013](/images/events/jazz-ball-2013/jazz-ball-2013.jpg){width="600"}](/events/jazz-ball-2013)
+
+#right
+<br>
+
+# [Jazz Ball 2013](/events/jazz-ball-2013)
+
+Arntzen's Three Generation Dixieland Band<br>
+
+SPK Polish Veterans Association Hall, Vancouver<br>
+
+Jan 26th, 2013
+
+<br>
+
+::ProseButton{to="/events/jazz-ball-2013" variant="secondary"}
 View Details
 ::
 
