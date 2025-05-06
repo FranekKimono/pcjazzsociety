@@ -6,6 +6,36 @@ sitemap:
   changefreq: monthly
 ---
 
+::FullWidthSection{variant="primary" patternOverlay="false" contentClass="w-full max-w-none px-0"}
+
+# The Polish-Canadian Jazz Society
+
+_The purpose of the Polish-Canadian Jazz Society:_
+<br></br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To popularize music, jazz in particular, among Canadians, including those of Polish background.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To encourage and promote young jazz musicians of Canadian and Polish origin in their accomplishments.
+
+## Elected board of directors 2024 - 2025
+
+::TwoColumn
+#left
+
+_President:_ &nbsp;&nbsp; **Andrzej Major** <br>
+_Secretary:_ &nbsp;&nbsp; **Wiktor Chorobik** <br>
+_Treasurer:_ &nbsp;&nbsp; **Tadeusz Siedlaczek** <br>
+_Auditing Committee:_ &nbsp;&nbsp; **Stanislaw Janecki** <br>
+
+#right
+
+_Vice-President:_ &nbsp;&nbsp; **Lech Jeziorowski** <br>
+_Vice-President:_ &nbsp;&nbsp; **Krzysztof Budziszewski** <br>
+_Vice-President:_ &nbsp;&nbsp; **Zbigniew Burdzy** <br>
+_Vice-President:_ &nbsp;&nbsp; **Arthur Babiarz** <br>
+<br></br>
+::
+::
+
 ::FullWidthSection{variant="primary" padding="md" patternOverlay="true" backgroundImage="/images/hero/jazz-splash-c.jpg"}
 
 # Contact Info
