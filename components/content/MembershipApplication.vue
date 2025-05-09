@@ -28,7 +28,8 @@
 
     <div class="mb-6">
       <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-2">
-        <span class="text-red-500">*</span> Membership Application
+        <span v-if="props.mode === 'edit'" class="text-red-500">*</span>
+        Membership Application
       </h3>
       <p class="text-sm text-gray-600 dark:text-gray-400">
         All members are required to adhere to the Polish Canadian Jazz Society's
@@ -53,8 +54,9 @@
             name="firstName"
             type="text"
             id="firstName"
-            required
-            class="w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-md shadow-sm focus:outline-none focus:ring-primary-500 focus:border-primary-500 bg-white dark:bg-gray-700 text-gray-900 dark:text-white"
+            :required="props.mode === 'edit'"
+            :readonly="props.mode === 'print'"
+            class="w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-md shadow-sm focus:outline-none focus:ring-primary-500 focus:border-primary-500 bg-white dark:bg-gray-700 text-gray-900 dark:text-white print-readonly-input"
           />
         </div>
         <div>
@@ -68,8 +70,9 @@
             name="lastName"
             type="text"
             id="lastName"
-            required
-            class="w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-md shadow-sm focus:outline-none focus:ring-primary-500 focus:border-primary-500 bg-white dark:bg-gray-700 text-gray-900 dark:text-white"
+            :required="props.mode === 'edit'"
+            :readonly="props.mode === 'print'"
+            class="w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-md shadow-sm focus:outline-none focus:ring-primary-500 focus:border-primary-500 bg-white dark:bg-gray-700 text-gray-900 dark:text-white print-readonly-input"
           />
         </div>
       </div>
@@ -91,7 +94,8 @@
             name="unit"
             type="text"
             id="unit"
-            class="w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-md shadow-sm focus:outline-none focus:ring-primary-500 focus:border-primary-500 bg-white dark:bg-gray-700 text-gray-900 dark:text-white"
+            :readonly="props.mode === 'print'"
+            class="w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-md shadow-sm focus:outline-none focus:ring-primary-500 focus:border-primary-500 bg-white dark:bg-gray-700 text-gray-900 dark:text-white print-readonly-input"
           />
         </div>
         <div>
@@ -105,8 +109,9 @@
             name="street"
             type="text"
             id="street"
-            required
-            class="w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-md shadow-sm focus:outline-none focus:ring-primary-500 focus:border-primary-500 bg-white dark:bg-gray-700 text-gray-900 dark:text-white"
+            :required="props.mode === 'edit'"
+            :readonly="props.mode === 'print'"
+            class="w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-md shadow-sm focus:outline-none focus:ring-primary-500 focus:border-primary-500 bg-white dark:bg-gray-700 text-gray-900 dark:text-white print-readonly-input"
           />
         </div>
         <div>
@@ -120,8 +125,9 @@
             type="text"
             name="city"
             id="city"
-            required
-            class="w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-md shadow-sm focus:outline-none focus:ring-primary-500 focus:border-primary-500 bg-white dark:bg-gray-700 text-gray-900 dark:text-white"
+            :required="props.mode === 'edit'"
+            :readonly="props.mode === 'print'"
+            class="w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-md shadow-sm focus:outline-none focus:ring-primary-500 focus:border-primary-500 bg-white dark:bg-gray-700 text-gray-900 dark:text-white print-readonly-input"
           />
         </div>
         <div>
@@ -135,8 +141,9 @@
             name="province"
             type="text"
             id="province"
-            required
-            class="w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-md shadow-sm focus:outline-none focus:ring-primary-500 focus:border-primary-500 bg-white dark:bg-gray-700 text-gray-900 dark:text-white"
+            :required="props.mode === 'edit'"
+            :readonly="props.mode === 'print'"
+            class="w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-md shadow-sm focus:outline-none focus:ring-primary-500 focus:border-primary-500 bg-white dark:bg-gray-700 text-gray-900 dark:text-white print-readonly-input"
           />
         </div>
         <div>
@@ -150,8 +157,9 @@
             type="text"
             name="postalCode"
             id="postalCode"
-            required
-            class="w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-md shadow-sm focus:outline-none focus:ring-primary-500 focus:border-primary-500 bg-white dark:bg-gray-700 text-gray-900 dark:text-white"
+            :required="props.mode === 'edit'"
+            :readonly="props.mode === 'print'"
+            class="w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-md shadow-sm focus:outline-none focus:ring-primary-500 focus:border-primary-500 bg-white dark:bg-gray-700 text-gray-900 dark:text-white print-readonly-input"
           />
         </div>
       </div>
@@ -168,7 +176,8 @@
             type="tel"
             name="phone"
             id="phone"
-            class="w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-md shadow-sm focus:outline-none focus:ring-primary-500 focus:border-primary-500 bg-white dark:bg-gray-700 text-gray-900 dark:text-white"
+            :readonly="props.mode === 'print'"
+            class="w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-md shadow-sm focus:outline-none focus:ring-primary-500 focus:border-primary-500 bg-white dark:bg-gray-700 text-gray-900 dark:text-white print-readonly-input"
           />
         </div>
         <div>
@@ -182,20 +191,24 @@
             type="email"
             name="email"
             id="email"
-            required
-            class="w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-md shadow-sm focus:outline-none focus:ring-primary-500 focus:border-primary-500 bg-white dark:bg-gray-700 text-gray-900 dark:text-white"
+            :required="props.mode === 'edit'"
+            :readonly="props.mode === 'print'"
+            class="w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-md shadow-sm focus:outline-none focus:ring-primary-500 focus:border-primary-500 bg-white dark:bg-gray-700 text-gray-900 dark:text-white print-readonly-input"
           />
         </div>
       </div>
 
       <!-- Signature section omitted as it requires printing -->
 
-      <div class="mt-8 text-sm text-gray-500 dark:text-gray-400">
+      <div
+        v-if="props.mode === 'edit'"
+        class="mt-8 text-sm text-gray-500 dark:text-gray-400"
+      >
         *Fill this form on your screen, print it out, sign, and mail or e-mail
         it to us.
       </div>
 
-      <div class="mt-6">
+      <div v-if="props.mode === 'edit'" class="mt-6">
         <button
           type="submit"
           class="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-primary-600 hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500 dark:focus:ring-offset-gray-800"
@@ -219,9 +232,22 @@
 </template>
 
 <script setup>
-import { ref } from "vue";
+import { ref, watch, toRefs } from "vue";
+import { navigateTo } from "#app";
 
-const formData = ref({
+const props = defineProps({
+  mode: {
+    type: String,
+    default: "edit", // 'edit' or 'print'
+    validator: (value) => ["edit", "print"].includes(value),
+  },
+  initialData: {
+    type: Object,
+    default: () => ({}),
+  },
+});
+
+const defaultFormData = {
   firstName: "",
   lastName: "",
   unit: "",
@@ -231,43 +257,81 @@ const formData = ref({
   postalCode: "",
   phone: "",
   email: "",
-});
+};
+
+const formData = ref({ ...defaultFormData });
+
+if (props.mode === "print" && props.initialData) {
+  // Ensure all keys from defaultFormData are present, even if not in initialData
+  const mergedData = { ...defaultFormData, ...props.initialData };
+  formData.value = mergedData;
+}
 
 const statusMessage = ref("");
 const isError = ref(false);
 
+// Watch for initialData changes if the component might be re-used with new print data
+// This is more robust if the print page component instance is somehow reused.
+watch(
+  () => props.initialData,
+  (newData) => {
+    if (props.mode === "print" && newData) {
+      const mergedData = { ...defaultFormData, ...newData };
+      formData.value = mergedData;
+    }
+  },
+  { deep: true }
+);
+
 async function handleSubmit() {
-  statusMessage.value = "Submitting...";
+  if (props.mode === "print") return; // Should not happen if button is hidden
+
   isError.value = false;
-  console.log("Form Data Submitted:", formData.value);
+  statusMessage.value = "Preparing printable application...";
 
-  // ** TODO: Replace console.log with API call to Nuxt server route **
-  // Example:
-  // try {
-  //   const response = await $fetch('/api/submit-membership', {
-  //     method: 'POST',
-  //     body: formData.value
-  //   });
-  //   statusMessage.value = 'Application data submitted successfully! Please print, sign, and send.';
-  //   // Optionally clear form: Object.keys(formData.value).forEach(key => formData.value[key] = '')
-  // } catch (error) {
-  //   console.error('Submission error:', error);
-  //   statusMessage.value = 'Error submitting application. Please try again.';
-  //   isError.value = true;
-  // }
+  try {
+    const serializedData = JSON.stringify(formData.value);
+    const encodedData = encodeURIComponent(serializedData);
 
-  // Simulating submission for now
-  await new Promise((resolve) => setTimeout(resolve, 1000)); // Simulate network delay
-  statusMessage.value =
-    "Test submission logged to console. Please print, sign, and send the actual form.";
-  // Reset form fields if needed
-  // Object.keys(formData.value).forEach(key => formData.value[key] = '')
+    statusMessage.value = "Redirecting to printable view...";
+    isError.value = false;
+
+    await navigateTo(`/membership-application-print?data=${encodedData}`);
+  } catch (error) {
+    console.error("Error preparing printable application:", error);
+    statusMessage.value =
+      "Could not prepare the printable application. Please try again.";
+    isError.value = true;
+  }
 }
 </script>
 
 <style scoped>
-/* Add any component-specific styles here if needed */
-.dark .dark\:invert {
-  filter: invert(1) hue-rotate(180deg);
+.print-readonly-input:read-only {
+  /* Style read-only inputs to look like normal text for print, remove focus ring */
+  /* Tailwind's default readonly often greys them out or changes border. */
+  /* We want them to look like filled fields. */
+  border-color: #d1d5db; /* Match default border-gray-300 */
+  box-shadow: none;
+  cursor: default;
+  background-color: #f9fafb; /* A very light gray or white, adjust as needed */
+}
+
+.dark .print-readonly-input:read-only {
+  border-color: #4b5563; /* Match default dark:border-gray-600 */
+  background-color: #374151; /* Match dark:bg-gray-700 */
+}
+
+/* Ensure the logo is not inverted by dark mode specific CSS when printing */
+@media print {
+  .dark\:invert {
+    filter: none !important; /* Overrides the dark mode invert specifically for print */
+  }
+  .print-readonly-input:read-only {
+    background-color: white !important; /* Ensure white background on print */
+    color: black !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
 }
 </style>
