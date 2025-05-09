@@ -120,7 +120,7 @@ Support Polish-Canadian jazz and enjoy exclusive benefits! As a member, you'll g
 Join the Society
 ::
 
-::FullWidthSection{variant="light" padding="sm" patternOverlay="true"}
+::FullWidthSection{variant="light" padding="sm" patternOverlay="false"}
 
 # [<span class="text-4xl text-zinc-900">Our Sponsors</span>]
 

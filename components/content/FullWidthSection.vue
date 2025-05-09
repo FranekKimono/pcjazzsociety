@@ -92,7 +92,7 @@ const variantClass = computed(() => {
     case "dark":
       return "bg-zinc-900 text-white";
     case "light":
-      return "bg-zinc-200 text-zinc-900";
+      return "bg-zinc-100 text-zinc-900";
     case "gradient":
       if (props.gradientColor) {
         return `bg-gradient-to-br from-transparent via-${props.gradientColor}/50 to-transparent text-white`;
@@ -109,7 +109,7 @@ const backgroundStyles = computed(() => {
   // Determine fallback color based on variant
   let fallbackColor = "rgb(39 39 42)"; // Default dark bg (bg-zinc-800)
   if (props.variant === "light") {
-    fallbackColor = "rgb(228 228 231)"; // bg-zinc-200
+    fallbackColor = "rgb(255 255 255)"; // bg-white, was rgb(244 244 245) for bg-zinc-100
   } else if (props.variant === "primary") {
     fallbackColor = "rgb(99 102 241)"; // bg-primary-500 (example)
   } // Add other variants if needed

@@ -11,7 +11,7 @@
         placeholder="Enter amount"
       />
     </div>
-
+<br></br>
     <!-- Additional Giving Details -->
     <fieldset class="mt-6">
       <legend class="text-lg font-medium text-gray-900 dark:text-gray-100">

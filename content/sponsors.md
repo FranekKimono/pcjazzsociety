@@ -1,7 +1,12 @@
-::FullWidthSection{variant="light" padding="sm" patternOverlay="true"}
-<br><br>
+::FullWidthSection{variant="primary" padding="lg" patternOverlay="true" backgroundImage="/images/hero/jazz-splash-b.jpg"}
 
-# [<span class="text-5xl text-zinc-900">Sponsors</span>]
+# Sponsors
+
+::
+
+::FullWidthSection{variant="light" padding="sm" patternOverlay="false"}
+
+<!-- # [<span class="text-5xl text-zinc-900">Sponsors</span>] -->
 
 We gratefully thank our sponsors for their generous contributions. Your donations make delivery of our program possible.
 

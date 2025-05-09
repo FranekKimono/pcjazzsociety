@@ -5,11 +5,13 @@ keywords: jazz gallery, past events, live music photos, Vancouver jazz archive, 
 ogImage: /images/pc-jazzfest-logo-color.png
 ---
 
-<br><br>
+::FullWidthSection{variant="primary" padding="lg" patternOverlay="true" backgroundImage="/images/hero/jazz-splash-b.jpg"}
 
-# [<span class="text-5xl text-primary-100">Explore Past Events</span>]
+# Past Events
 
-<br><br>
+::
+
+<!-- # [<span class="text-5xl text-primary-100">Explore Past Events</span>] -->
 
 <!-- SENDECKI SPIEGEL 2023 - START -->
 
