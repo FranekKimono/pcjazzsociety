@@ -6,9 +6,27 @@ sitemap:
   changefreq: monthly
 ---
 
-::FullWidthSection{variant="primary" patternOverlay="false" contentClass="w-full max-w-none px-0"}
+::FullWidthSection{variant="primary" padding="md" patternOverlay="true" backgroundImage="/images/hero/jazz-splash-c.jpg"}
 
 # The Polish-Canadian Jazz Society
+
+::TwoColumn
+#left
+For more information, please contact us.
+
+&nbsp;&nbsp;&nbsp;&nbsp;[info@pcjazzsociety.ca](mailto:info@pcjazzsociety.ca)
+
+&nbsp;&nbsp;&nbsp;&nbsp;[+1 (604) 984-7857](tel:604-984-7857)
+#right
+Polish Canadian Jazz Society,<br>
+13830, 33rd Avenue, Surrey, BC<br>
+Canada, V4P 2B4<br>
+
+::
+::
+::FullWidthSection{variant="primary" patternOverlay="false" contentClass="w-full max-w-none px-0"}
+
+## About Us
 
 _The purpose of the Polish-Canadian Jazz Society:_
 <br></br>
@@ -33,22 +51,6 @@ _Vice-President:_ &nbsp;&nbsp; **Krzysztof Budziszewski** <br>
 _Vice-President:_ &nbsp;&nbsp; **Zbigniew Burdzy** <br>
 _Vice-President:_ &nbsp;&nbsp; **Arthur Babiarz** <br>
 <br></br>
+
 ::
-::
-
-::FullWidthSection{variant="primary" padding="md" patternOverlay="true" backgroundImage="/images/hero/jazz-splash-c.jpg"}
-
-# Contact Info
-
-::TwoColumn
-#left
-For more information, please contact us.
-
-&nbsp;&nbsp;&nbsp;&nbsp;[info@pcjazzsociety.ca](mailto:info@pcjazzsociety.ca)
-
-&nbsp;&nbsp;&nbsp;&nbsp;[+1 (604) 984-7857](tel:604-984-7857)
-#right
-Polish Canadian Jazz Society,<br>
-13830, 33rd Avenue, Surrey, BC<br>
-Canada, V4P 2B4<br>
 ::

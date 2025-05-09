@@ -62,6 +62,14 @@
               </li>
               <li class="nav-item">
                 <NuxtLink
+                  to="/donate"
+                  @click="mobileMenuOpen = false"
+                  :class="{ 'active-link': $route.path === '/donate' }"
+                  >Donate</NuxtLink
+                >
+              </li>
+              <li class="nav-item">
+                <NuxtLink
                   to="/sponsors"
                   @click="mobileMenuOpen = false"
                   :class="{ 'active-link': $route.path === '/sponsors' }"
