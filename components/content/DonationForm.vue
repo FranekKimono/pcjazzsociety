@@ -1,5 +1,5 @@
 <template>
-  <form class="donation-form">
+  <form class="donation-form" @submit.prevent="handleSubmit">
     <!-- Donation Amount -->
     <div>
       <label for="donation-amount">Donation Amount: $&nbsp;</label>
@@ -9,9 +9,11 @@
         v-model.number="formData.amount"
         min="1"
         placeholder="Enter amount"
+        :readonly="props.mode === 'print'"
+        class="print-readonly-input"
       />
     </div>
-<br></br>
+
     <!-- Additional Giving Details -->
     <fieldset class="mt-6">
       <legend class="text-lg font-medium text-gray-900 dark:text-gray-100">
@@ -23,6 +25,7 @@
             type="checkbox"
             id="decline-benefits"
             v-model="formData.declineBenefits"
+            :disabled="props.mode === 'print'"
           />
           <label for="decline-benefits" class="ml-2"
             >I wish to decline all benefits to claim the full tax-deduction for
@@ -34,6 +37,7 @@
             type="checkbox"
             id="gift-tribute"
             v-model="formData.isTribute"
+            :disabled="props.mode === 'print'"
           />
           <label for="gift-tribute" class="ml-2"
             >I wish to make this gift as a tribute.</label
@@ -54,6 +58,7 @@
             id="list-name"
             v-model="formData.listName"
             @change="handleListNameChange"
+            :disabled="props.mode === 'print'"
           />
           <label for="list-name" class="ml-2"
             >I would like my name to be listed as:</label
@@ -63,8 +68,9 @@
             type="text"
             id="recognition-name"
             v-model="formData.recognitionName"
-            class="ml-2 mt-1 p-1 border rounded w-full bg-white text-gray-900 dark:text-gray-100"
+            class="ml-2 mt-1 p-1 border rounded w-full bg-white text-gray-900 dark:text-gray-100 print-readonly-input"
             placeholder="Your name for recognition"
+            :readonly="props.mode === 'print'"
           />
         </div>
         <div>
@@ -73,6 +79,7 @@
             id="anonymous-gift"
             v-model="formData.anonymousGift"
             @change="handleAnonymousChange"
+            :disabled="props.mode === 'print'"
           />
           <label for="anonymous-gift" class="ml-2"
             >I would prefer to make my gift anonymously.</label
@@ -82,10 +89,9 @@
     </fieldset>
 
     <!-- Submit Button (Placeholder) -->
-    <div class="mt-8">
+    <div class="mt-8" v-if="props.mode === 'edit'">
       <button
         type="submit"
-        @click.prevent="handleSubmit"
         class="px-4 py-2 bg-primary-500 text-white rounded hover:bg-primary-600"
       >
         Proceed to Donation
@@ -96,58 +102,82 @@
 
 <script setup>
 import { ref, reactive, watch } from "vue";
+import { navigateTo } from "#app";
 
-const formData = reactive({
+const props = defineProps({
+  mode: {
+    type: String,
+    default: "edit",
+    validator: (value) => ["edit", "print"].includes(value),
+  },
+  initialData: {
+    type: Object,
+    default: () => ({}),
+  },
+});
+
+const defaultFormData = {
   amount: null,
   declineBenefits: false,
   isTribute: false,
   listName: false,
   recognitionName: "",
   anonymousGift: false,
-});
+};
 
-// Ensure only one recognition option can be selected
+const formData = ref({ ...defaultFormData });
+
+if (props.mode === "print" && props.initialData) {
+  formData.value = { ...defaultFormData, ...props.initialData };
+}
+
+watch(
+  () => props.initialData,
+  (newData) => {
+    if (props.mode === "print" && newData) {
+      formData.value = { ...defaultFormData, ...newData };
+    }
+  },
+  { deep: true }
+);
+
 const handleListNameChange = () => {
-  if (formData.listName) {
-    formData.anonymousGift = false;
+  if (formData.value.listName) {
+    formData.value.anonymousGift = false;
   }
 };
 
 const handleAnonymousChange = () => {
-  if (formData.anonymousGift) {
-    formData.listName = false;
-    formData.recognitionName = ""; // Clear recognition name if anonymous is chosen
+  if (formData.value.anonymousGift) {
+    formData.value.listName = false;
+    formData.value.recognitionName = "";
   }
 };
 
-// Watchers to enforce mutual exclusivity more robustly
 watch(
-  () => formData.listName,
+  () => formData.value.listName,
   (newValue) => {
     if (newValue) {
-      formData.anonymousGift = false;
+      formData.value.anonymousGift = false;
     }
   }
 );
 
 watch(
-  () => formData.anonymousGift,
+  () => formData.value.anonymousGift,
   (newValue) => {
     if (newValue) {
-      formData.listName = false;
-      formData.recognitionName = "";
+      formData.value.listName = false;
+      formData.value.recognitionName = "";
     }
   }
 );
 
 const handleSubmit = () => {
-  // Placeholder for submission logic
-  // In a real scenario, you would send this data to a payment gateway or backend
-  console.log("Form submitted:", formData);
-  alert(
-    "Thank you for your donation! (This is a placeholder - no actual payment processed)"
-  );
-  // Reset form or redirect as needed
+  if (props.mode === "print") return;
+  const serializedData = JSON.stringify(formData.value);
+  const encodedData = encodeURIComponent(serializedData);
+  navigateTo(`/donation-print?data=${encodedData}`);
 };
 </script>
 
