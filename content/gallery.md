@@ -19,11 +19,11 @@ ogImage: /images/pc-jazzfest-logo-color.png
 ::TwoColumnAlt
 #left
 <br></br>
-[![Sendecki-Spiegel Jazz Duo Poster](/images/events/sendecki-spiegel-2023/sendecki-spiegel.jpg){width="600"}](/gallery/sendecki-spiegel)
+[![Sendecki-Spiegel Jazz Duo Poster](/images/events/sendecki-spiegel-2023/sendecki-spiegel.jpg){width="600"}](/events/sendecki-spiegel-2023)
 #right
 <br>
 
-# [Sendecki-Spiegel Jazz Duo](/gallery/sendecki-spiegel-2023)
+# [Sendecki-Spiegel Jazz Duo](/events/sendecki-spiegel-2023)
 
 Norman Rothstein Theatre, Vancouver<br>
 
@@ -41,12 +41,12 @@ View Details
 ::TwoColumnAlt
 #left
 <br></br>
-[![Adam Olejniczak & Vladyslav Sendecki](/images/events/olejniczak-sendecki-2016/olejniczak-sendecki.jpg){width="600"}](/gallery/olejniczak-sendecki)
+[![Adam Olejniczak & Vladyslav Sendecki](/images/events/olejniczak-sendecki-2016/olejniczak-sendecki.jpg){width="600"}](/events/olejniczak-sendecki)
 
 #right
 <br>
 
-# [Olejniczak-Sendecki Jazz Quartet](/gallery/olejniczak-sendecki)
+# [Olejniczak-Sendecki Jazz Quartet](/events/olejniczak-sendecki)
 
 Venue TBD<br>
 
@@ -64,12 +64,12 @@ View Details
 ::TwoColumnAlt
 #left
 <br></br>
-[![Andrzej Jagodzinski Trio](/images/events/jagodzinski-trio-2022/jagodzinski-trio.jpg){width="600"}](/gallery/jagodzinski-trio)
+[![Andrzej Jagodzinski Trio](/images/events/jagodzinski-trio-2022/jagodzinski-trio.jpg){width="600"}](/events/jagodzinski-trio-2022)
 
 #right
 <br>
 
-# [Andrzej Jagodzinski Trio](/gallery/jagodzinski-trio-2022)
+# [Andrzej Jagodzinski Trio](/events/jagodzinski-trio-2022)
 
 Norman Rothstein Theatre, Vancouver<br>
 
@@ -87,12 +87,12 @@ View Details
 ::TwoColumnAlt
 #left
 <br></br>
-[![Jazz Ball 2020](/images/events/jazz-ball-2020/jazz-ball.jpg){width="600"}](/gallery/jazz-ball-2020)
+[![Jazz Ball 2020](/images/events/jazz-ball-2020/jazz-ball.jpg){width="600"}](/events/jazz-ball-2020)
 
 #right
 <br>
 
-# [Jazz Ball 2020](/gallery/jazz-ball-2020)
+# [Jazz Ball 2020](/events/jazz-ball-2020)
 
 Bonnie Northgraves All Stars<br>
 
@@ -466,11 +466,11 @@ View Details
 ::TwoColumnAlt
 #left
 <br></br>
-[![Jazz Ball 2011](/images/events/jazz-ball-2011/jazz-ball-2011.jpg){width="600"}](/gallery/jazz-ball-2011)
+[![Jazz Ball 2011](/images/events/jazz-ball-2011/jazz-ball-2011.jpg){width="600"}](/events/jazz-ball-2011)
 #right
 <br>
 
-# [Jazz Ball 2011](/gallery/jazz-ball-2011)
+# [Jazz Ball 2011](/events/jazz-ball-2011)
 
 Evan Arntzen Septet<br>
 
@@ -490,11 +490,11 @@ View Details
 ::TwoColumnAlt
 #left
 <br></br>
-[![Andrzej Jagodzinski Trio](/images/events/jagodzinski-trio-2010/jagodzinski-trio.jpg){width="600"}](/gallery/jagodzinski-trio-2010)
+[![Andrzej Jagodzinski Trio](/images/events/jagodzinski-trio-2010/jagodzinski-trio.jpg){width="600"}](/events/jagodzinski-trio-2010)
 #right
 <br>
 
-# [Andrzej Jagodzinski Trio](/gallery/jagodzinski-trio-2010)
+# [Andrzej Jagodzinski Trio](/events/jagodzinski-trio-2010)
 
 The Cellar Jazz Club, Vancouver<br>
 
