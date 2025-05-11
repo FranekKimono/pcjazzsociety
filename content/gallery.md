@@ -60,7 +60,7 @@ View Details
 
 <!-- JAGODZINSKI TRIO 2022 START -->
 
-::FullWidthSection{variant="default" padding="sm" patternOverlay="true"}
+::FullWidthSection{variant="dark" padding="sm" patternOverlay="true"}
 ::TwoColumnAlt
 #left
 <br></br>
@@ -83,7 +83,7 @@ View Details
 
 <!-- JAZZ BALL 2020 - START -->
 
-::FullWidthSection{variant="dark" padding="sm" patternOverlay="true"}
+::FullWidthSection{variant="default" padding="sm" patternOverlay="true"}
 ::TwoColumnAlt
 #left
 <br></br>
@@ -108,7 +108,7 @@ View Details
 
 <!-- WYLEZOL WIECEK 2019 - START -->
 
-::FullWidthSection{variant="default" padding="sm" patternOverlay="true"}
+::FullWidthSection{variant="dark" padding="sm" patternOverlay="true"}
 ::TwoColumnAlt
 #left
 <br></br>
@@ -131,7 +131,7 @@ View Details
 
 <!-- JAZZ BALL 2019 - START -->
 
-::FullWidthSection{variant="dark" padding="sm" patternOverlay="true"}
+::FullWidthSection{variant="default" padding="sm" patternOverlay="true"}
 ::TwoColumnAlt
 #left
 <br></br>
@@ -296,7 +296,7 @@ View Details
 
 <!-- NAMYSLOWSKI KOCHAN 2013 - START -->
 
-::FullWidthSection{variant="default" padding="sm" patternOverlay="true"}
+::FullWidthSection{variant="dark" padding="sm" patternOverlay="true"}
 ::TwoColumnAlt
 #left
 <br></br>
@@ -319,7 +319,7 @@ View Details
 
 <!-- JAZZ BALL 2013 - START -->
 
-::FullWidthSection{variant="dark" padding="sm" patternOverlay="true"}
+::FullWidthSection{variant="default" padding="sm" patternOverlay="true"}
 ::TwoColumnAlt
 #left
 <br></br>
@@ -344,12 +344,11 @@ View Details
 
 <!-- JAZZ CAFE NOV 2012 - START -->
 
-::FullWidthSection{variant="default" padding="sm" patternOverlay="true"}
+::FullWidthSection{variant="dark" padding="sm" patternOverlay="true"}
 ::TwoColumnAlt
 #left
 <br></br>
 [![Jazz Cafe November 2012](/images/events/jazz-cafe-nov-2012/jazz-cafe-nov-2012.jpg){width="600"}](/events/jazz-cafe-nov-2012)
-
 #right
 <br>
 
@@ -369,12 +368,11 @@ View Details
 
 <!-- JAZZ CAFE SEPT 2012 - START -->
 
-::FullWidthSection{variant="dark" padding="sm" patternOverlay="true"}
+::FullWidthSection{variant="default" padding="sm" patternOverlay="true"}
 ::TwoColumnAlt
 #left
 <br></br>
 [![Jazz Cafe September 2012](/images/events/jazz-cafe-sept-2012/jazz-cafe.jpg){width="600"}](/events/jazz-cafe-sept-2012)
-
 #right
 <br>
 
@@ -394,12 +392,11 @@ View Details
 
 <!-- STRING CONNECTION LIVE 2012 - START -->
 
-::FullWidthSection{variant="default" padding="sm" patternOverlay="true"}
+::FullWidthSection{variant="dark" padding="sm" patternOverlay="true"}
 ::TwoColumnAlt
 #left
 <br></br>
 [![String Connection Live](/images/events/string-connection-2012/string-connection.jpg){width="600"}](/events/string-connection-2012)
-
 #right
 <br>
 
@@ -417,12 +414,11 @@ View Details
 
 <!-- JAZZ CAFE NOV 2011 - START -->
 
-::FullWidthSection{variant="dark" padding="sm" patternOverlay="true"}
+::FullWidthSection{variant="default" padding="sm" patternOverlay="true"}
 ::TwoColumnAlt
 #left
 <br></br>
 [![Jazz Cafe November 2011](/images/events/jazz-cafe-nov-2011/jazz-cafe.jpg){width="600"}](/events/jazz-cafe-nov-2011)
-
 #right
 <br>
 
@@ -442,12 +438,11 @@ View Details
 
 <!-- JAZZ CAFE SEPT 2011 - START -->
 
-::FullWidthSection{variant="default" padding="sm" patternOverlay="true"}
+::FullWidthSection{variant="dark" padding="sm" patternOverlay="true"}
 ::TwoColumnAlt
 #left
 <br></br>
 [![Jazz Cafe September 2011](/images/events/jazz-cafe-sept-2011/jazz-cafe.jpg){width="600"}](/events/jazz-cafe-sept-2011)
-
 #right
 <br>
 
@@ -467,12 +462,11 @@ View Details
 
 <!-- JAZZ BALL 2011 - START -->
 
-::FullWidthSection{variant="dark" padding="sm" patternOverlay="true"}
+::FullWidthSection{variant="default" padding="sm" patternOverlay="true"}
 ::TwoColumnAlt
 #left
 <br></br>
 [![Jazz Ball 2011](/images/events/jazz-ball-2011/jazz-ball-2011.jpg){width="600"}](/gallery/jazz-ball-2011)
-
 #right
 <br>
 
@@ -497,7 +491,6 @@ View Details
 #left
 <br></br>
 [![Andrzej Jagodzinski Trio](/images/events/jagodzinski-trio-2010/jagodzinski-trio.jpg){width="600"}](/gallery/jagodzinski-trio-2010)
-
 #right
 <br>
 
@@ -520,7 +513,6 @@ View Details
 #left
 <br></br>
 [![String Connection Live](/images/events/leszek-mozdzer-2010/mozdzer.jpg){width="600"}](/events/leszek-mozdzer-2010)
-
 #right
 <br>
 
