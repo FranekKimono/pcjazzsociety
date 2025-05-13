@@ -3,7 +3,11 @@
     <!-- Donation Amount -->
     <div>
       <label for="donation-amount">Donation Amount: $&nbsp;</label>
+      <span v-if="props.mode === 'print'">
+        {{ formattedDisplayAmount }}
+      </span>
       <input
+        v-else
         type="number"
         id="donation-amount"
         v-model.number="formData.amount"
@@ -101,7 +105,7 @@
 </template>
 
 <script setup>
-import { ref, reactive, watch } from "vue";
+import { ref, reactive, watch, computed } from "vue";
 import { navigateTo } from "#app";
 
 const props = defineProps({
@@ -130,6 +134,21 @@ const formData = ref({ ...defaultFormData });
 if (props.mode === "print" && props.initialData) {
   formData.value = { ...defaultFormData, ...props.initialData };
 }
+
+const formattedDisplayAmount = computed(() => {
+  if (formData.value.amount == null || formData.value.amount === "") {
+    return "";
+  }
+  // Ensure it's a number before formatting
+  const amountNumber = Number(formData.value.amount);
+  if (isNaN(amountNumber)) {
+    return ""; // Or handle as an error/default
+  }
+  return amountNumber.toLocaleString(undefined, {
+    minimumFractionDigits: 2,
+    maximumFractionDigits: 2,
+  });
+});
 
 watch(
   () => props.initialData,
@@ -287,5 +306,16 @@ const handleSubmit = () => {
 .hover\:bg-primary-600:hover {
   /* Placeholder - ensure your primary-600 is defined in Tailwind config */
   background-color: #0056b3;
+}
+
+/* Style for the span to mimic readonly input if needed */
+.print-readonly-input-display {
+  @apply p-2 border rounded-md w-full max-w-xs text-gray-900 bg-gray-100 dark:bg-gray-700 dark:text-gray-300;
+  display: inline-block; /* or block depending on layout */
+  min-height: calc(
+    2.25rem + 2px
+  ); /* Approximate height of input with border and padding */
+  line-height: 1.5rem; /* Approximate line-height of input */
+  /* Add other styles from .print-readonly-input if they apply to non-input elements */
 }
 </style>

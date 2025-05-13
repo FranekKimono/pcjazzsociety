@@ -1,6 +1,6 @@
 ---
 title: UI Components
-description: A showcase of available UI components and content elements for this site template
+description: A showcase of available UI components and content elements.
 keywords: components, UI elements, content blocks, examples, documentation
 sitemap:
   changefreq: monthly
@@ -201,8 +201,5 @@ The ContentBox component accepts the following properties:
 ::ProseButtonGroup
 ::ProseButton{to="/" variant="secondary"}
 Back to Home
-::
-::ProseButton{to="/products" variant="primary"}
-View Products
 ::
 ::

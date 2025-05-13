@@ -21,15 +21,25 @@
           </p>
           <p>
             <strong class="text-gray-900">Amount:</strong>
-            <span v-if="donationData.amount"
-              >${{ Number(donationData.amount).toFixed(2) }}</span
-            >
+            <span v-if="formattedAmount">
+              {{ formattedAmount }}
+            </span>
           </p>
           <p>
             <strong class="text-gray-900">Message/Memo:</strong><br />
-            <span class="font-mono"
-              >Donation for Polish Canadian Jazz Society from [Your Name]</span
-            >
+            <span class="font-mono">
+              Donation for Polish Canadian Jazz Society from
+              <template
+                v-if="
+                  donationData.listName &&
+                  donationData.recognitionName &&
+                  donationData.recognitionName.trim() !== ''
+                "
+              >
+                {{ donationData.recognitionName }}
+              </template>
+              <template v-else> __________ </template>
+            </span>
           </p>
           <p>
             <strong class="text-gray-900">Important:</strong> Please use the
@@ -60,7 +70,7 @@
 </template>
 
 <script setup>
-import { ref, onMounted } from "vue";
+import { ref, onMounted, computed } from "vue";
 import { useRoute } from "vue-router";
 import DonationForm from "@/components/content/DonationForm.vue";
 
@@ -79,6 +89,22 @@ onMounted(() => {
       donationData.value = null;
     }
   }
+});
+
+const formattedAmount = computed(() => {
+  if (
+    !donationData.value ||
+    donationData.value.amount == null ||
+    donationData.value.amount === ""
+  )
+    return "";
+  return (
+    "$" +
+    Number(donationData.value.amount).toLocaleString(undefined, {
+      minimumFractionDigits: 2,
+      maximumFractionDigits: 2,
+    })
+  );
 });
 </script>
 

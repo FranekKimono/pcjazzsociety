@@ -1,41 +1,46 @@
 ---
-title: Blog
-description: Latest articles, tutorials, and resources
-keywords: blog, articles, tutorials, resources, guides
+title: Jazz Notes | The Polish Canadian Jazz Festival Blog
+description: News, artist spotlights, stories from the Polish and Canadian jazz scene, and updates from the Polish Canadian Jazz Festival.
+keywords: jazz blog, Polish jazz, Canadian jazz, jazz news, artist interviews, music articles, Vancouver jazz scene, Polish culture
 sitemap:
   changefreq: weekly
 ---
 
-# Blog
+# Jazz Notes & News
 
-Welcome to our blog. Here you'll find articles, tutorials, and resources to help you get the most out of our products and services.
+Welcome to our blog! Dive into the world of Polish and Canadian jazz. Discover artist stories, festival news, insights into jazz culture, and reflections on the vibrant music that connects our communities.
 
 ::FullWidthSection{variant="default" padding="md" shadow="true"}
-  Browse our collection of articles covering product updates, tutorials, and best practices.
+Explore our collection of articles, interviews, and updates from the heart of the jazz scene.
 ::
 
 ## Latest Articles
 
-### [Adding a Logo to Product Output](/posts/sample-post)
+Check back soon for our latest posts featuring artist spotlights, event highlights, and stories from the Polish-Canadian jazz world!
 
-Learn how to customize your documents with a logo and facility information.
+<!--
+### [Sample Jazz Article Title Placeholder](/posts/sample-jazz-post)
 
-*June 15, 2023*
+Description of a sample jazz article.
 
-This tutorial walks you through the process of enhancing your output by adding your organization's logo and name to every document. Follow our step-by-step guide to customize your templates.
+*Date*
 
-[Read more →](/posts/sample-post)
+Brief excerpt or summary of the jazz article.
+
+[Read more →](/posts/sample-jazz-post)
+-->
 
 ---
 
 ::EmphasisBox
-## Looking for specific information?
 
-Can't find what you're looking for? Our team is here to help with any questions you might have.
+## Have something to share or a question?
+
+We love hearing from fellow jazz enthusiasts! Whether you have a question about our events, an idea for an article, or want to connect with the Polish Canadian Jazz Society, don't hesitate to reach out.
 
 ::ProseButtonGroup
-  ::ProseButton{to="/contact" variant="primary"}
-    Contact Us
-  ::
+::ProseButton{to="/contact" variant="primary"}
+Contact Us
 ::
-:: 
+::
+::
