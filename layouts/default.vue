@@ -8,7 +8,7 @@
     ></div>
 
     <header
-      class="sticky-header fixed top-0 left-0 w-full py-1 bg-zinc-900 z-30 transition-all duration-200"
+      class="sticky-header fixed top-0 left-0 w-full py-1 bg-slate-950 z-30 transition-all duration-200"
       :class="{ scrolled: isScrolled }"
     >
       <div class="w-11/12 max-w-screen-lg my-0 mx-auto py-0 px-2">
@@ -210,7 +210,7 @@ const closeMobileMenu = () => {
 }
 
 .sticky-header.scrolled {
-  @apply py-0 shadow-lg bg-zinc-900/90;
+  @apply py-0 shadow-lg bg-slate-950/90;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
