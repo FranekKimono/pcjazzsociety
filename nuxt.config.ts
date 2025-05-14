@@ -24,7 +24,7 @@ export default defineNuxtConfig({
         name: process.env.NUXT_SITE_NAME || "Siemowit",
         primaryDomain: process.env.NUXT_PRIMARY_DOMAIN || "siemowit.com",
       },
-      primaryColor: process.env.NUXT_PRIMARY_COLOR || "#4ad1c9", // Aquamarine default
+      primaryColor: process.env.NUXT_PRIMARY_COLOR || "#242eb6", // blue default
       fonts: {
         main: process.env.NUXT_FONT_MAIN || "Lato",
         code: process.env.NUXT_FONT_CODE || "Fira Code",
@@ -44,7 +44,7 @@ export default defineNuxtConfig({
     ],
   },
   gtag: {
-    id: "G-8XTVY6HYL8",
+    id: "",
   },
   content: {
     build: {
