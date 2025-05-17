@@ -20,7 +20,7 @@ ogImage: /images/pc-jazzfest-logo-color.png
 ::TwoColumnAlt
 #left
 <br></br>
-[![Agnieszka Wilczyńska performing live](/images/events/agnieszka-wilczynska-2025/wilczynska.jpg){width="600"}](/events/agnieszka-wilczynska)
+[![Agnieszka Wilczyńska performing live](/images/events/agnieszka-wilczynska-2025/wilczynska.jpg){width="600"}](/pl/events/agnieszka-wilczynska)
 #right
 <br>
 

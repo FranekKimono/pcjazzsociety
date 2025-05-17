@@ -14,7 +14,7 @@
       <div class="w-11/12 max-w-screen-lg my-0 mx-auto py-0 px-2">
         <div class="flex justify-between items-center py-1">
           <div class="logo">
-            <NuxtLink to="/">
+            <NuxtLink :to="localePath('/')">
               <NuxtImg
                 src="/images/pc-jazzfest-logo-color.png"
                 width="100"
@@ -38,51 +38,68 @@
             <ul class="nav-list">
               <li class="nav-item">
                 <NuxtLink
-                  to="/events"
+                  :to="localePath('/events')"
                   @click="mobileMenuOpen = false"
-                  :class="{ 'active-link': $route.path === '/events' }"
-                  >Tickets
+                  :class="{
+                    'active-link': $route.path === localePath('/events'),
+                  }"
+                  >{{ $t("nav.tickets") }}
                 </NuxtLink>
               </li>
               <li class="nav-item">
                 <NuxtLink
-                  to="/gallery"
+                  :to="localePath('/gallery')"
                   @click="mobileMenuOpen = false"
-                  :class="{ 'active-link': $route.path === '/gallery' }"
-                  >Gallery
+                  :class="{
+                    'active-link': $route.path === localePath('/gallery'),
+                  }"
+                  >{{ $t("nav.gallery") }}
                 </NuxtLink>
               </li>
               <li class="nav-item">
                 <NuxtLink
-                  to="/membership"
+                  :to="localePath('/membership')"
                   @click="mobileMenuOpen = false"
-                  :class="{ 'active-link': $route.path === '/membership' }"
-                  >Membership
+                  :class="{
+                    'active-link': $route.path === localePath('/membership'),
+                  }"
+                  >{{ $t("nav.membership") }}
                 </NuxtLink>
               </li>
               <li class="nav-item">
                 <NuxtLink
-                  to="/donate"
+                  :to="localePath('/donate')"
                   @click="mobileMenuOpen = false"
-                  :class="{ 'active-link': $route.path === '/donate' }"
-                  >Donate</NuxtLink
+                  :class="{
+                    'active-link': $route.path === localePath('/donate'),
+                  }"
+                  >{{ $t("nav.donate") }}</NuxtLink
                 >
               </li>
               <li class="nav-item">
                 <NuxtLink
-                  to="/sponsors"
+                  :to="localePath('/sponsors')"
                   @click="mobileMenuOpen = false"
-                  :class="{ 'active-link': $route.path === '/sponsors' }"
-                  >Sponsors
+                  :class="{
+                    'active-link': $route.path === localePath('/sponsors'),
+                  }"
+                  >{{ $t("nav.sponsors") }}
                 </NuxtLink>
               </li>
               <li class="nav-item">
                 <NuxtLink
-                  to="/contact"
+                  :to="localePath('/contact')"
                   @click="mobileMenuOpen = false"
-                  :class="{ 'active-link': $route.path === '/contact' }"
-                  >Contact</NuxtLink
+                  :class="{
+                    'active-link': $route.path === localePath('/contact'),
+                  }"
+                  >{{ $t("nav.contact") }}</NuxtLink
                 >
+              </li>
+              <li class="nav-item">
+                <button @click="toggleLanguage" class="language-switcher">
+                  {{ locale === "en" ? "PL" : "EN" }}
+                </button>
               </li>
             </ul>
           </nav>
@@ -122,14 +139,16 @@
           All rights reserved.
         </p>
         <div class="footer-links mt-2">
-          <NuxtLink to="/contact" class="text-zinc-400 hover:text-zinc-200"
-            >Contact Us</NuxtLink
+          <NuxtLink
+            :to="localePath('/contact')"
+            class="text-zinc-400 hover:text-zinc-200"
+            >{{ $t("footer.contactUs") }}</NuxtLink
           >
           &dash;
           <NuxtLink
-            to="/privacy-policy"
+            :to="localePath('/privacy-policy')"
             class="text-zinc-400 hover:text-zinc-200"
-            >Privacy Policy</NuxtLink
+            >{{ $t("footer.privacyPolicy") }}</NuxtLink
           >
         </div>
       </div>
@@ -142,6 +161,8 @@ const mobileMenuOpen = ref(false);
 const isDesktop = ref(false);
 const isScrolled = ref(false);
 const route = useRoute();
+const { locale, setLocale, t: $t } = useI18n();
+const localePath = useLocalePath();
 
 // Handle scroll events to modify header appearance
 const handleScroll = () => {
@@ -191,6 +212,14 @@ const toggleMobileMenu = () => {
 const closeMobileMenu = () => {
   mobileMenuOpen.value = false;
   document.body.style.overflow = "";
+};
+
+const toggleLanguage = () => {
+  const newLocale = locale.value === "en" ? "pl" : "en";
+  setLocale(newLocale);
+  if (mobileMenuOpen.value) {
+    mobileMenuOpen.value = false; // Close mobile menu on language change
+  }
 };
 </script>
 <style scoped>
@@ -248,16 +277,16 @@ const closeMobileMenu = () => {
 }
 
 .mobile-menu-toggle {
-  display: none;
+  display: none; /* Hidden on desktop */
   flex-direction: column;
-  justify-content: space-between;
-  width: 30px;
-  height: 21px;
+  justify-content: space-around;
+  width: 2rem;
+  height: 2rem;
   background: transparent;
   border: none;
   cursor: pointer;
   padding: 0;
-  z-index: 10;
+  z-index: 31; /* Ensure it's above the backdrop */
 }
 
 .mobile-menu-toggle span {
@@ -367,6 +396,15 @@ const closeMobileMenu = () => {
   position: relative;
 }
 
+/* Ensure active-link class works correctly with localePath */
+.main-nav
+  .nav-list
+  .nav-item
+  a:has(.router-link-active.router-link-exact-active) {
+  @apply text-primary-500;
+  font-weight: 600;
+}
+
 @media (min-width: 769px) {
   .main-nav .nav-list .nav-item a.active-link::after {
     display: none;
@@ -377,5 +415,32 @@ const closeMobileMenu = () => {
   padding-top: 80px !important;
   position: relative;
   z-index: 1;
+}
+
+.language-switcher {
+  background: none;
+  border: none;
+  color: inherit;
+  cursor: pointer;
+  padding: 0.5rem 1rem; /* Existing padding, seems reasonable */
+  text-transform: uppercase; /* Added */
+  font-weight: 500; /* Added */
+  letter-spacing: 0.03em; /* Added */
+  font-size: 0.8rem; /* Added */
+  line-height: 1; /* Added */
+  /* font-family: inherit; /* Ensuring it uses the same font family */
+}
+
+.language-switcher:hover {
+  /* Add hover styles if desired, e.g., text-primary-500 */
+  color: #a5b4fc; /* Example hover color, adjust to your theme */
+}
+
+.main-nav.is-open .language-switcher {
+  /* Styles for the switcher when the mobile menu is open */
+  display: block;
+  width: 100%;
+  text-align: left;
+  padding: 1rem; /* Match other mobile nav items if necessary */
 }
 </style>

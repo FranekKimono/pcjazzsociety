@@ -7,7 +7,7 @@ ogImage: /images/pc-jazzfest-logo-color.png
 
 ::FullWidthSection{variant="primary" padding="lg" patternOverlay="true" backgroundImage="/images/hero/jazz-splash-b.jpg"}
 
-# Przeszle wystepy
+# PL:Przeszle wystepy
 
 ::
 

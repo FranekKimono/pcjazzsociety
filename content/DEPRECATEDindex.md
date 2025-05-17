@@ -9,9 +9,9 @@ ogImage: /images/pc-jazzfest-logo-color.png
 ::TwoColumn
 #left
 
-# [<span class="text-5xl text-primary-50">Agnieszka Wilczyńska</span>](/events/agnieszka-wilczynska)
+# [<span class="text-5xl text-primary-50">Agnieszka Wilczyńska</span>](/en/events/agnieszka-wilczynska)
 
-Join us for an unforgettable evening with the renowned Polish jazz vocalist Agnieszka Wilczyńska.
+DERP:Join us for an unforgettable evening with the renowned Polish jazz vocalist Agnieszka Wilczyńska.
 <br><br><br/>
 October 26, 2025, 8:00 PM
 

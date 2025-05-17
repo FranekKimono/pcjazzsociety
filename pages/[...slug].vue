@@ -1,5 +1,8 @@
 <script setup>
 const slug = useRoute().params.slug;
+const { locale } = useI18n();
+const localePath = useLocalePath();
+
 const { data: page } = await useAsyncData(
   `content-${Array.isArray(slug) ? slug.join("/") : slug}`,
   () => {
@@ -44,7 +47,7 @@ if (!page.value) {
         Redirecting to home page in 5 seconds...
       </p>
       <NuxtLink
-        to="/"
+        :to="localePath('/')"
         class="inline-block px-6 py-2 bg-primary-600 hover:bg-primary-500 text-white hover:text-white rounded-md transition-colors"
       >
         Go Home Now

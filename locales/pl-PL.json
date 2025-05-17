@@ -1,0 +1,15 @@
+{
+  "welcome": "Witamy",
+  "nav": {
+    "tickets": "Bilety",
+    "gallery": "Galeria",
+    "membership": "Członkostwo",
+    "donate": "Wspomóż",
+    "sponsors": "Sponsorzy",
+    "contact": "Kontakt"
+  },
+  "footer": {
+    "contactUs": "Skontaktuj się z nami",
+    "privacyPolicy": "Polityka Prywatności"
+  }
+}

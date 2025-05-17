@@ -2,6 +2,7 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: [
+    "@nuxtjs/i18n",
     "@nuxtjs/color-mode",
     "@nuxtjs/robots",
     "@nuxtjs/sitemap",
@@ -14,6 +15,24 @@ export default defineNuxtConfig({
     url: process.env.NUXT_SITE_URL || "https://siemowit.com",
     name: process.env.NUXT_SITE_NAME || "Siemowit",
     primaryDomain: process.env.NUXT_PRIMARY_DOMAIN || "siemowit.com",
+  },
+  i18n: {
+    locales: [
+      {
+        code: "en",
+        name: "English",
+        file: "en-US.json",
+      },
+      {
+        code: "pl",
+        name: "Polski",
+        file: "pl-PL.json",
+      },
+    ],
+    lazy: true,
+    langDir: "locales",
+    defaultLocale: "en",
+    vueI18n: "./i18n.config.ts", // if you are using custom path, default
   },
   runtimeConfig: {
     // Private keys that are exposed to the server

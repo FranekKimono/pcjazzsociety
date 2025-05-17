@@ -7,7 +7,7 @@ ogImage: /images/pc-jazzfest-logo-color.png
 
 ::FullWidthSection{variant="primary" padding="lg" patternOverlay="true" backgroundImage="/images/hero/jazz-splash-a.jpg"}
 
-# Upcoming Events
+# EN: Upcoming Events
 
 ::
 
@@ -24,7 +24,7 @@ ogImage: /images/pc-jazzfest-logo-color.png
 #right
 <br>
 
-# [Agnieszka Wilczyńska](/events/agnieszka-wilczynska)
+# [Agnieszka Wilczyńska](/en/events/agnieszka-wilczynska)
 
 A performance by Agnieszka Wilczyńska, a Polish jazz singer and composer.
 
