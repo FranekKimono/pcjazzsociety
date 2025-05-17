@@ -61,7 +61,7 @@ export default defineNuxtConfig({
           preload: ["ini", "html", "xml", "yaml"],
         },
         remarkPlugins: {
-          "remark-mermaidjs": {
+          "rehype-mermaid": {
             simple: true,
             mermaidConfig: {
               theme: "base",

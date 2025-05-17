@@ -1,0 +1,19 @@
+{
+  "nav": {
+    "tickets": "Bilety",
+    "gallery": "Galeria",
+    "membership": "Członkostwo",
+    "donate": "Wspomóż Nas",
+    "sponsors": "Sponsorzy",
+    "contact": "Kontakt",
+    "toggleMenu": "Przełącz menu nawigacji"
+  },
+  "footer": {
+    "copyright": "© {year} Polsko-Kanadyjskie Towarzystwo Jazzowe. Wszelkie prawa zastrzeżone.",
+    "contactUs": "Skontaktuj się z nami",
+    "privacyPolicy": "Polityka Prywatności"
+  },
+  "alt": {
+    "companyLogo": "Logo Firmy Inc"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "nav": {
+    "tickets": "Tickets",
+    "gallery": "Gallery",
+    "membership": "Membership",
+    "donate": "Donate",
+    "sponsors": "Sponsors",
+    "contact": "Contact",
+    "toggleMenu": "Toggle navigation menu"
+  },
+  "footer": {
+    "copyright": "© {year} Polish-Canadian Jazz Society. All rights reserved.",
+    "contactUs": "Contact Us",
+    "privacyPolicy": "Privacy Policy"
+  },
+  "alt": {
+    "companyLogo": "Company Inc logo"
+  }
+}
