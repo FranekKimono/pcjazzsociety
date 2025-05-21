@@ -12,18 +12,46 @@ sitemap:
 
 ::TwoColumn
 #left
+
 For more information, please contact us.
 
 &nbsp;&nbsp;&nbsp;&nbsp;[info@pcjazzsociety.ca](mailto:info@pcjazzsociety.ca)
 
 &nbsp;&nbsp;&nbsp;&nbsp;[+1 (604) 984-7857](tel:604-984-7857)
+
 #right
+
 Polish Canadian Jazz Society,<br>
 13830, 33rd Avenue, Surrey, BC<br>
 Canada, V4P 2B4<br>
+::
 
 ::
+
+::FullWidthSection{variant="primary" patternOverlay="false"}
+
+::TwoColumn
+#left
+
+You can subscribe to out youtube channel
+
+#right
+::ProseButton{to="https://www.youtube.com/channel/UCiYPs8NQ59dnDkK-m3Ol3tQ" variant="primary" external=true}
+YouTube
 ::
+
+::FullWidthSection{variant="secondary" patternOverlay="false"}
+
+::TwoColumn
+#left
+
+Join us on our facebook page
+
+#right
+::ProseButton{to="https://en-gb.facebook.com/pcjazzsociety.ca" variant="primary" external=true}
+Facebook
+::
+
 ::FullWidthSection{variant="primary" patternOverlay="false" contentClass="w-full max-w-none px-0"}
 
 ## About Us
@@ -53,4 +81,5 @@ _Vice-President:_ &nbsp;&nbsp; **Arthur Babiarz** <br>
 <br></br>
 
 ::
+
 ::
