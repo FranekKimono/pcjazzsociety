@@ -1,10 +1,18 @@
 ---
-title: About the Polish Canadian Jazz Festival
-description: Discover the story behind the Polish Canadian Jazz Festival, our mission to celebrate jazz, and connect Polish and Canadian cultures through music in Vancouver.
-keywords: Polish Canadian Jazz Festival, Vancouver jazz, Polish jazz, Canadian jazz, cultural exchange, music festival, Polish society, Polish culture, live music
+title:
+  en: About the Polish Canadian Jazz Festival
+  pl: O Polsko-Kanadyjskim Festiwalu Jazzowym
+description:
+  en: Discover the story behind the Polish Canadian Jazz Festival, our mission to celebrate jazz, and connect Polish and Canadian cultures through music in Vancouver.
+  pl: Odkryj historię Polsko-Kanadyjskiego Festiwalu Jazzowego, naszą misję celebrowania jazzu oraz łączenia polskiej i kanadyjskiej kultury poprzez muzykę w Vancouver.
+keywords:
+  en: Polish Canadian Jazz Festival, Vancouver jazz, Polish jazz, Canadian jazz, cultural exchange, music festival, Polish society, Polish culture, live music, jazz, society, Poland, polish
+  pl: Polsko-Kanadyjski Festiwal Jazzowy, jazz w Vancouver, polski jazz, kanadyjski jazz, wymiana kulturalna, festiwal muzyczny, polskie towarzystwo, polska kultura, muzyka na żywo, jazz, towarzystwo, Polska, polski
 sitemap:
   changefreq: monthly
 ---
+
+::LocaleBlock{lang="en"}
 
 # About Us: Celebrating Polish and Canadian Jazz
 
@@ -39,3 +47,43 @@ Experience the magic of Polish and Canadian jazz with us!
 We invite you to explore the rich sounds and vibrant energy of the Polish Canadian Jazz Festival.
 
 [Connect with us](/contact) to learn more or share your love for jazz!
+
+::
+
+::LocaleBlock{lang="pl"}
+
+# O nas: Świętowanie polskiego i kanadyjskiego jazzu
+
+Witamy na stronie Polsko-Kanadyjskiego Festiwalu Jazzowego! Jesteśmy pasjonatami, którzy z oddaniem przynoszą żywe rytmy polskiego i kanadyjskiego jazzu do serca Vancouver. Założeni przez grupę entuzjastów jazzu i członków polsko-kanadyjskiej społeczności, naszą misją jest wspieranie wymiany kulturalnej, prezentowanie wybitnych talentów muzycznych oraz tworzenie niezapomnianych wrażeń z muzyki na żywo.
+
+Wierzymy w moc jazzu, która łączy ludzi, przekracza granice i wzbogaca nasze społeczeństwo. Nasz festiwal i całoroczne działania mają na celu celebrowanie bogatego dziedzictwa polskiego jazzu oraz jego dynamicznej interakcji z kanadyjską sceną muzyczną.
+
+### Nasza wizja i działania
+
+Polsko-Kanadyjski Festiwal Jazzowy to więcej niż coroczne wydarzenie; to nieustanne świętowanie muzyki, kultury i społeczności. Nasze główne działania obejmują:
+
+- **Coroczny Festiwal Jazzowy**: Nasze flagowe wydarzenie, prezentujące starannie dobrany skład uznanych polskich i kanadyjskich artystów jazzowych, a także wschodzące talenty.
+- **Koncerty i warsztaty**: Przez cały rok organizujemy różnorodne koncerty, jam sessions oraz warsztaty edukacyjne z renomowanymi muzykami, oferując możliwości nauki i zaangażowania.
+- **Wymiana kulturalna**: Aktywnie promujemy współpracę między polskimi i kanadyjskimi artystami, wspierając unikalny dialog kulturowy poprzez uniwersalny język jazzu.
+- **Budowanie społeczności**: Staramy się być centrum dla miłośników jazzu, muzyków i wszystkich zainteresowanych polską kulturą w Vancouver, tworząc przyjazną przestrzeń do nawiązywania kontaktów i dzielenia się pasją.
+
+### Nasza społeczność i wspierający
+
+Festiwal ożywa dzięki oddanemu zespołowi organizatorów, entuzjastycznym wolontariuszom oraz nieocenionemu wsparciu naszych członków i sponsorów. Jesteśmy dumni ze współpracy z lokalnymi firmami, instytucjami kulturalnymi oraz szerszą społecznością polsko-kanadyjską, aby umożliwić realizację naszych wydarzeń.
+
+Nasza społeczność obejmuje utalentowanych muzyków, którzy goszczą na naszych scenach, publiczność dzielącą radość z jazzu na żywo oraz wszystkich, którzy wierzą w znaczenie ekspresji kulturalnej i innowacji artystycznej.
+
+### Zaangażuj się!
+
+Doświadcz magii polskiego i kanadyjskiego jazzu razem z nami!
+
+- **Uczestnicz w naszych wydarzeniach**: Sprawdź naszą [stronę wydarzeń](/events) pod kątem nadchodzących koncertów i dat festiwalowych.
+- **Zostań członkiem**: [Dołącz do naszego towarzystwa](/membership), aby cieszyć się ekskluzywnymi korzyściami i wspierać naszą misję.
+- **Zostań sponsorem**: Współpracuj z festiwalem i pokaż swoje zaangażowanie w sztukę i kulturę. [Dowiedz się więcej](/sponsors).
+- **Zostań wolontariuszem**: Poświęć swój czas i umiejętności, aby pomóc w sukcesie naszych wydarzeń.
+
+Zapraszamy do odkrywania bogatych dźwięków i żywiołowej energii Polsko-Kanadyjskiego Festiwalu Jazzowego.
+
+[Skontaktuj się z nami](/contact), aby dowiedzieć się więcej lub podzielić się swoją miłością do jazzu!
+
+::

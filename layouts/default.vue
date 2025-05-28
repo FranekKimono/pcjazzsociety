@@ -96,11 +96,6 @@
                   >{{ $t("nav.contact") }}</NuxtLink
                 >
               </li>
-              <li class="nav-item">
-                <button @click="toggleLanguage" class="language-switcher">
-                  {{ locale === "en" ? "PL" : "EN" }}
-                </button>
-              </li>
             </ul>
           </nav>
         </div>
