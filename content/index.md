@@ -5,52 +5,19 @@ keywords: jazz, festival, Polish jazz, Canadian jazz, music festival, live music
 ogImage: /images/pc-jazzfest-logo-color.png
 ---
 
-::FullWidthSection{ patternOverlay="true" backgroundImage="/images/events/agnieszka-wilczynska-2025/wilczynska-2.jpg" }
+::FullWidthSection{ patternOverlay="true" backgroundImage="/images/hero/Hero-1.jpg" }
 ::TwoColumn
 #left
 
-# [<span class="text-5xl text-primary-50">Agnieszka Wilczyńska</span>](/en/events/agnieszka-wilczynska)
+# [<span class="text-5xl text-primary-50">All That Jazz!</span>](/en/events)
 
-DERP:Join us for an unforgettable evening with the renowned Polish jazz vocalist Agnieszka Wilczyńska.
+Welcome to the Polish-Canadian Jazz Society.
 <br><br><br/>
-October 26, 2025, 8:00 PM
-
-Polish Community Centre, Vancouver
+Explore our upcoming events.
 
 ::ProseButtonGroup
-::ProseButton{to="/events/agnieszka-wilczynska" variant="primary" size="xl"}
-Get Tickets
-::
-::
-
-<!-- video -->
-
-::FullWidthSection{variant="primary" patternOverlay="false" contentClass="w-full max-w-none px-0"}
-
-<div class="aspect-w-16 aspect-h-9">
-  <iframe
-    src="https://www.youtube.com/embed/HrmEXkicjwI"
-    title="YouTube video player"
-    frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    referrerpolicy="strict-origin-when-cross-origin"
-    allowfullscreen
-    width="100%"
-    height="100%"
-    class="rounded-lg shadow-lg w-full h-full"
-  ></iframe>
-</div>
-
-::VideoDescription
-#title
-**"Sleep safe and warm"**&nbsp;&nbsp; _(K.Komeda/W.Młynarski)_&nbsp;&nbsp;&nbsp;
-#details
-A.Wilczyńska - vocals &nbsp;&nbsp;
-A. Jagodziński - piano &nbsp;&nbsp;
-A. Cegielski - bass &nbsp;&nbsp;
-Cz. Bratkowski - drums &nbsp;&nbsp;
-Sinfonia Viva &nbsp;&nbsp;
-T. Radziwiniwicz - cond. &nbsp;&nbsp;
+::ProseButton{to="/events" variant="primary" size="xl"}
+Learn More
 ::
 ::
 
