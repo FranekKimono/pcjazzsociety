@@ -6,19 +6,14 @@ ogImage: /images/pc-jazzfest-logo-color.png
 ---
 
 ::FullWidthSection{ patternOverlay="true" backgroundImage="/images/hero/hero-1.jpg" }
-::TwoColumn
-#left
 
-# [<span class="text-5xl text-primary-50">All That Jazz!</span>](/en/events)
+# [<span class="text-5xl text-primary-50">Polish-Canadian Jazz Society</span>](/en/events)
 
-Welcome to the Polish-Canadian Jazz Society.
-<br><br><br/>
-Explore our upcoming events.
+The Polish-Canadian Jazz Society invites you to experience captivating live performances, connect with fellow music enthusiasts, and celebrate the rich cultural exchange that defines our community. Explore our upcoming events and become part of a society dedicated to the soulful sounds of jazz.
 
 ::ProseButtonGroup
-::ProseButton{to="/events" variant="primary" size="xl"}
+::ProseButton{to="/events" variant="secondary" size="xl"}
 Learn More
-::
 ::
 
 <!-- Membership -->
@@ -26,7 +21,7 @@ Learn More
 <br>
 <!-- events -->
 
-# UPCOMING EVENTS
+# Concerts
 
 ::TwoColumn
 #left
