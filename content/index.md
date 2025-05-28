@@ -5,7 +5,7 @@ keywords: jazz, festival, Polish jazz, Canadian jazz, music festival, live music
 ogImage: /images/pc-jazzfest-logo-color.png
 ---
 
-::FullWidthSection{ patternOverlay="true" backgroundImage="/images/hero/Hero-1.jpg" }
+::FullWidthSection{ patternOverlay="true" backgroundImage="/images/hero/hero-1.jpg" }
 ::TwoColumn
 #left
 
