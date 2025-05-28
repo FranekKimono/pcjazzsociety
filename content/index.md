@@ -13,7 +13,7 @@ The Polish-Canadian Jazz Society invites you to experience captivating live perf
 
 ::ProseButtonGroup
 ::ProseButton{to="/events" variant="secondary" size="xl"}
-Learn More
+Explore Events
 ::
 
 <!-- Membership -->

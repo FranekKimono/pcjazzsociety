@@ -86,20 +86,20 @@ const paddingClass = computed(() => {
 const variantClass = computed(() => {
   switch (props.variant) {
     case "default":
-      return "bg-zinc-600 dark:bg-zinc-800";
+      return "bg-primary-900 dark:bg-primary-950";
     case "primary":
       return "bg-primary-500 text-white";
     case "dark":
-      return "bg-zinc-900 text-white";
+      return "bg-primary-950 text-white";
     case "light":
-      return "bg-zinc-100 text-zinc-900";
+      return "bg-primary-100 text-primary-900";
     case "gradient":
       if (props.gradientColor) {
         return `bg-gradient-to-br from-transparent via-${props.gradientColor}/50 to-transparent text-white`;
       }
-      return "bg-gradient-to-br from-transparent via-primary-500/50 to-transparent text-white";
+      return "bg-gradient-to-br from-transparent via-primary-700/50 to-transparent text-white";
     default:
-      return "bg-zinc-800 dark:bg-zinc-800";
+      return "bg-primary-900 dark:bg-primary-950";
   }
 });
 
@@ -107,11 +107,11 @@ const backgroundStyles = computed(() => {
   if (!props.backgroundImage) return {};
 
   // Determine fallback color based on variant
-  let fallbackColor = "rgb(39 39 42)"; // Default dark bg (bg-zinc-800)
+  let fallbackColor = "#0f192a"; // primary-900
   if (props.variant === "light") {
-    fallbackColor = "rgb(255 255 255)"; // bg-white, was rgb(244 244 245) for bg-zinc-100
+    fallbackColor = "#d5e3f7"; // primary-100
   } else if (props.variant === "primary") {
-    fallbackColor = "rgb(99 102 241)"; // bg-primary-500 (example)
+    fallbackColor = "#001c40"; // primaryColor default
   } // Add other variants if needed
 
   return {
