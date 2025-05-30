@@ -18,24 +18,25 @@
   },
   "dependencies": {
     "@nuxt/content": "^3.5.1",
-    "@nuxt/image": "^1.9.0",
+    "@nuxt/image": "^1.10.0",
     "@nuxtjs/color-mode": "^3.5.2",
+    "@nuxtjs/i18n": "^9.5.5",
     "@nuxtjs/mdc": "^0.15.0",
-    "@nuxtjs/robots": "^5.2.8",
-    "@nuxtjs/sitemap": "^7.2.9",
-    "@nuxtjs/tailwindcss": "^6.13.2",
-    "better-sqlite3": "^11.9.0",
+    "@nuxtjs/robots": "^5.2.10",
+    "@nuxtjs/sitemap": "^7.3.0",
+    "@nuxtjs/tailwindcss": "^6.14.0",
+    "better-sqlite3": "^11.10.0",
     "install": "^0.13.0",
-    "mermaid": "^11.5.0",
-    "nuxt": "^3.17.1",
+    "mermaid": "^11.6.0",
+    "nuxt": "^3.17.4",
     "nuxt-gtag": "^3.0.2",
-    "playwright": "^1.51.1",
+    "playwright": "^1.52.0",
     "rehype-mermaid": "^3.0.0",
-    "remark-extended-table": "^2.0.2",
+    "remark-extended-table": "^2.0.3",
     "remark-mermaidjs": "^7.0.0",
     "sharp": "^0.33.5",
-    "vue": "^3.5.13",
-    "vue-router": "^4.5.0"
+    "vue": "^3.5.16",
+    "vue-router": "^4.5.1"
   },
   "pnpm": {
     "ignoredBuiltDependencies": [
@@ -56,10 +57,9 @@
   },
   "devDependencies": {
     "@nuxt/devtools": "^1.7.0",
-    "@nuxtjs/i18n": "^9.5.4",
     "@tailwindcss/aspect-ratio": "^0.4.2",
     "remark-attr": "^0.11.1",
-    "tailwindcss": "~3.4.0",
-    "typescript": "^5.8.2"
+    "tailwindcss": "~3.4.17",
+    "typescript": "^5.8.3"
   }
 }
