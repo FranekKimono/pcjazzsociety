@@ -33,7 +33,7 @@ import { computed } from "vue";
 interface Props {
   variant?: "default" | "primary" | "dark" | "gradient" | "light";
   rounded?: boolean;
-  padding?: "none" | "sm" | "md" | "lg" | "xl";
+  padding?: "none" | "sm" | "md" | "lg" | "xl" | "2xl";
   backgroundImage?: string;
   patternOverlay?: boolean | string;
   imageDisplayMode?: "cover" | "contain";
@@ -78,6 +78,8 @@ const paddingClass = computed(() => {
       return "py-8";
     case "xl":
       return "py-12";
+    case "2xl":
+      return "py-24";
     default:
       return "py-4";
   }

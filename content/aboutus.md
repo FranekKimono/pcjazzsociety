@@ -18,7 +18,7 @@ sitemap:
 
 # The Polish-Canadian Jazz Society
 
-_About Us_
+_Our Mission:_
 <br></br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To popularize music, jazz in particular, among Canadians, including those of Polish background.
 
@@ -95,3 +95,21 @@ _Cel Polsko-Kanadyjskiego Towarzystwa Jazzowego:_
 :::GalleryItem{src="/images/team/treasurer.jpg" alt="Secretary"}
 :::
 ::
+
+::LocaleBlock{lang="en"}
+
+## Our History
+
+The Polish-Canadian Jazz Society (PCJS) was founded in 1998 by a group of passionate jazz enthusiasts and musicians of Polish heritage residing in Vancouver. Their vision was to create a vibrant community that celebrates the rich traditions of Polish jazz while fostering collaboration with Canadian artists. Over the years, PCJS has grown into a significant cultural entity, hosting numerous concerts, festivals, and workshops. We've proudly showcased established international stars and nurtured emerging talent, contributing to the diverse musical landscape of Canada. Our commitment to promoting jazz and cultural exchange continues to drive our efforts, connecting people through the universal language of music.
+
+::
+
+::LocaleBlock{lang="pl"}
+
+## Nasza Historia
+
+Polsko-Kanadyjskie Towarzystwo Jazzowe (PCJS) zostało założone w 1998 roku przez grupę pasjonatów jazzu i muzyków polskiego pochodzenia mieszkających w Vancouver. Ich wizją było stworzenie tętniącej życiem społeczności, która celebruje bogate tradycje polskiego jazzu, jednocześnie wspierając współpracę z kanadyjskimi artystami. Przez lata PCJS stało się znaczącym podmiotem kulturalnym, organizując liczne koncerty, festiwale i warsztaty. Z dumą gościliśmy uznane międzynarodowe gwiazdy i wspieraliśmy młode talenty, przyczyniając się do różnorodnego krajobrazu muzycznego Kanady. Nasze zaangażowanie w promowanie jazzu i wymiany kulturalnej nadal napędza nasze działania, łącząc ludzi poprzez uniwersalny język muzyki.
+
+::
+<br>
+<br>
