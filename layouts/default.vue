@@ -88,6 +88,16 @@
               </li>
               <li class="nav-item">
                 <NuxtLink
+                  :to="localePath('/aboutus')"
+                  @click="mobileMenuOpen = false"
+                  :class="{
+                    'active-link': $route.path === localePath('/aboutus'),
+                  }"
+                  >{{ $t("nav.about") }}
+                </NuxtLink>
+              </li>
+              <li class="nav-item">
+                <NuxtLink
                   :to="localePath('/contact')"
                   @click="mobileMenuOpen = false"
                   :class="{

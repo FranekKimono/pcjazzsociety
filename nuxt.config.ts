@@ -12,9 +12,9 @@ export default defineNuxtConfig({
     "nuxt-gtag",
   ],
   site: {
-    url: process.env.NUXT_SITE_URL || "https://siemowit.com",
-    name: process.env.NUXT_SITE_NAME || "Siemowit",
-    primaryDomain: process.env.NUXT_PRIMARY_DOMAIN || "siemowit.com",
+    url: process.env.NUXT_SITE_URL || "https://pcjazzsociety.ca",
+    name: process.env.NUXT_SITE_NAME || "PCJS",
+    primaryDomain: process.env.NUXT_PRIMARY_DOMAIN || "pcjazzsociety.ca",
   },
   i18n: {
     locales: [
@@ -39,9 +39,9 @@ export default defineNuxtConfig({
     public: {
       // Keys that are exposed to the client
       site: {
-        url: process.env.NUXT_SITE_URL || "https://siemowit.com",
-        name: process.env.NUXT_SITE_NAME || "Siemowit",
-        primaryDomain: process.env.NUXT_PRIMARY_DOMAIN || "siemowit.com",
+        url: process.env.NUXT_SITE_URL || "https://pcjazzsociety.ca",
+        name: process.env.NUXT_SITE_NAME || "PCJS",
+        primaryDomain: process.env.NUXT_PRIMARY_DOMAIN || "pcjazzsociety.ca",
       },
       primaryColor: process.env.NUXT_PRIMARY_COLOR || "#242eb6", // blue default
       fonts: {

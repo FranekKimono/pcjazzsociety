@@ -1,7 +1,7 @@
 [
   {
     "source": "/some-old-link/",
-    "target": "https://nuxt-content-starter.fluxinc.co/new-page",
+    "target": "https://nuxt-content-starter.pcjazzsociety.ca",
     "code": 301,
     "active": true
   }
