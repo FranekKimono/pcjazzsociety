@@ -32,7 +32,7 @@ April 14, 2023
 <br>
 
 ::ProseButton{to="/events/sendecki-spiegel-2023" variant="secondary"}
-View Details
+See More
 ::
 
 <!-- OLEJNICZAK SENDECKI START -->
@@ -55,7 +55,7 @@ Oct 2023<br>
 <br>
 
 ::ProseButton{to="/events/olejniczak-sendecki" variant="secondary"}
-View Details
+See More
 :: -->
 
 <!-- JAGODZINSKI TRIO 2022 START -->
@@ -78,7 +78,7 @@ April 1, 2022
 <br>
 
 ::ProseButton{to="/events/jagodzinski-trio-2022" variant="secondary"}
-View Details
+See More
 ::
 
 <!-- JAZZ BALL 2020 - START -->
@@ -103,7 +103,7 @@ Jan 25th, 2020
 <br>
 
 ::ProseButton{to="/events/jazz-ball-2020" variant="secondary"}
-View Details
+See More
 ::
 
 <!-- WYLEZOL WIECEK 2019 - START -->
@@ -126,7 +126,7 @@ April 5th, 2019
 <br>
 
 ::ProseButton{to="/events/wylezol-wiecek-2019" variant="secondary"}
-View Details
+See More
 ::
 
 <!-- JAZZ BALL 2019 - START -->
@@ -151,7 +151,7 @@ Feb 16th, 2019
 <br>
 
 ::ProseButton{to="/events/jazz-ball-2019" variant="secondary"}
-View Details
+See More
 ::
 
 <!-- ARTUR DUTKIEWICZ JAZZ TRIO 2016 - START -->
@@ -174,7 +174,7 @@ Nov 6th, 2016
 <br>
 
 ::ProseButton{to="/events/artur-dutkiewicz-jazz-trio-2016" variant="secondary"}
-View Details
+See More
 ::
 
 <!-- OLEJNICZAK-SENDECKI JAZZ QUARTET 2016 - START -->
@@ -197,7 +197,7 @@ April 1st, 2016
 <br>
 
 ::ProseButton{to="/events/jazz-quartet-2016" variant="secondary"}
-View Details
+See More
 ::
 
 <!-- KRYSTYNA STANKO 2015 - START -->
@@ -220,7 +220,7 @@ Nov 8th, 2015
 <br>
 
 ::ProseButton{to="/events/krystyna-stanko-2015" variant="secondary"}
-View Details
+See More
 ::
 
 <!-- KOCHAN BALDYCH 2015 - START -->
@@ -243,7 +243,7 @@ March 20th, 2015
 <br>
 
 ::ProseButton{to="/events/kochan-bialych-2015" variant="secondary"}
-View Details
+See More
 ::
 
 <!-- JAZZ BALL 2015 - START -->
@@ -268,7 +268,7 @@ Jan 31st, 2015
 <br>
 
 ::ProseButton{to="/events/jazz-ball-2015" variant="secondary"}
-View Details
+See More
 ::
 
 <!-- ATOM STRING QUARTET 2014 - START -->
@@ -291,7 +291,7 @@ March 14, 2014
 <br>
 
 ::ProseButton{to="/events/atom-string-quartet-2014" variant="secondary"}
-View Details
+See More
 ::
 
 <!-- NAMYSLOWSKI KOCHAN 2013 - START -->
@@ -314,7 +314,7 @@ March 22nd, 2013
 <br>
 
 ::ProseButton{to="/events/namyslowski-kochan-2013" variant="secondary"}
-View Details
+See More
 ::
 
 <!-- JAZZ BALL 2013 - START -->
@@ -339,7 +339,7 @@ Jan 26th, 2013
 <br>
 
 ::ProseButton{to="/events/jazz-ball-2013" variant="secondary"}
-View Details
+See More
 ::
 
 <!-- JAZZ CAFE NOV 2012 - START -->
@@ -363,7 +363,7 @@ Nov 2012
 <br>
 
 ::ProseButton{to="/events/jazz-cafe-nov-2012" variant="secondary"}
-View Details
+See More
 ::
 
 <!-- JAZZ CAFE SEPT 2012 - START -->
@@ -387,7 +387,7 @@ Sept 14th, 2012
 <br>
 
 ::ProseButton{to="/events/jazz-cafe-sept-2012" variant="secondary"}
-View Details
+See More
 ::
 
 <!-- STRING CONNECTION LIVE 2012 - START -->
@@ -409,7 +409,7 @@ March 23, 2012
 <br>
 
 ::ProseButton{to="/events/string-connection-2012" variant="secondary"}
-View Details
+See More
 ::
 
 <!-- JAZZ CAFE NOV 2011 - START -->
@@ -433,7 +433,7 @@ Nov 4th, 2011
 <br>
 
 ::ProseButton{to="/events/jazz-cafe-nov-2011" variant="secondary"}
-View Details
+See More
 ::
 
 <!-- JAZZ CAFE SEPT 2011 - START -->
@@ -457,7 +457,7 @@ Sept 23rd, 2011
 <br>
 
 ::ProseButton{to="/events/jazz-cafe-sept-2011" variant="secondary"}
-View Details
+See More
 ::
 
 <!-- JAZZ BALL 2011 - START -->
@@ -481,7 +481,7 @@ Jan 22nd, 2011
 <br>
 
 ::ProseButton{to="/events/jazz-ball-2011" variant="secondary"}
-View Details
+See More
 ::
 
 <!-- JAGODZINSKI TRIO 2010 - START -->
@@ -503,7 +503,7 @@ October, 2010
 <br>
 
 ::ProseButton{to="/events/jagodzinski-trio-2010" variant="secondary"}
-View Details
+See More
 ::
 
 <!-- MOZDZER 2010 START -->
@@ -525,5 +525,5 @@ May 9, 2010
 <br>
 
 ::ProseButton{to="/events/leszek-mozdzer-2010" variant="secondary"}
-View Details
+See More
 ::
