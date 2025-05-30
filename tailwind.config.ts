@@ -1,8 +1,10 @@
 import type { Config } from "tailwindcss";
-import defaultTheme from "tailwindcss/defaultTheme";
-import colors from "tailwindcss/colors";
-import aspectRatio from "@tailwindcss/aspect-ratio";
-
+// import defaultTheme from "tailwindcss/defaultTheme";
+// import colors from "tailwindcss/colors";
+// import aspectRatio from "@tailwindcss/aspect-ratio";
+const defaultTheme = require("tailwindcss/defaultTheme");
+const colors = require("tailwindcss/colors");
+const aspectRatio = require("@tailwindcss/aspect-ratio");
 // Get the primary color from env or use default aquamarine
 const primaryColor = process.env.NUXT_PRIMARY_COLOR || "#001c40";
 // Get font names from environment variables or use defaults
