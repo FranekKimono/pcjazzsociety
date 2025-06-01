@@ -6,9 +6,13 @@ sitemap:
   changefreq: yearly
 ---
 
-::FullWidthSection{variant="primary" padding="xl" patternOverlay="true"}
+::FullWidthSection{variant="primary" padding="lg" patternOverlay="true" backgroundImage="/images/hero/jazz-splash-a.jpg"}
 
 # Become a Member
+
+::
+
+::FullWidthSection{variant="dark" padding="xl" patternOverlay="true"}
 
 Support Polish-Canadian jazz and enjoy exclusive benefits! As a member, you'll get access to special events, discounts on tickets, networking opportunities, and contribute to fostering cultural exchange through the vibrant sound of jazz. Join our passionate community today!
 

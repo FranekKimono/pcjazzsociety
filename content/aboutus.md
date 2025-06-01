@@ -10,15 +10,19 @@ sitemap:
   changefreq: monthly
 ---
 
+::FullWidthSection{variant="primary" padding="lg" patternOverlay="true" backgroundImage="/images/hero/jazz-splash-a.jpg"}
+
+# The Polish-Canadian Jazz Society
+
+::
+
 ::FullWidthSection{variant="primary" patternOverlay="false" contentClass="w-full max-w-none px-0"}
 
 ::LocaleBlock{lang="en"}
 
-# The Polish-Canadian Jazz Society
+## Our Mission:
 
-_Our Mission:_
-<br></br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To popularize music, jazz in particular, among Canadians, including those of Polish background.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To popularize jazz among Canadians, including those of Polish background.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To encourage and promote young jazz musicians of Canadian and Polish origin in their accomplishments.
 
