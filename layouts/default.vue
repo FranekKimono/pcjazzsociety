@@ -36,7 +36,7 @@
           </button>
           <nav class="main-nav" :class="{ 'is-open': mobileMenuOpen }">
             <ul class="nav-list">
-              <li class="nav-item">
+              <li class="nav-item" v-if="false">
                 <NuxtLink
                   :to="localePath('/events')"
                   @click="mobileMenuOpen = false"
