@@ -1,7 +1,5 @@
 ---
-title:
-  en: Contact Us
-  pl: Skontaktuj się z nami
+title: Contact Us
 description:
   en: For more information, please contact us.
   pl: Aby uzyskać więcej informacji, skontaktuj się z nami.

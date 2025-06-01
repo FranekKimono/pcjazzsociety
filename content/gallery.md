@@ -1,5 +1,5 @@
 ---
-title: Past Events Gallery
+title: Gallery
 description: Explore photos and details from our past jazz events and performances.
 keywords: jazz gallery, past events, live music photos, Vancouver jazz archive, Polish jazz archive, Canadian jazz archive
 ogImage: /images/pc-jazzfest-logo-color.png
@@ -13,9 +13,28 @@ ogImage: /images/pc-jazzfest-logo-color.png
 
 <!-- # [<span class="text-5xl text-primary-100">Explore Past Events</span>] -->
 
+::FullWidthSection{variant="primary" padding="sm" patternOverlay="true"}
+::TwoColumnAlt
+#left
+<br></br>
+[![Agnieszka Wilczyńska](/images/events/agnieszka-wilczynska-2025/wilczynska.jpg){width="600"}](/events/agnieszka-wilczynska)
+#right
+<br>
+
+# [Agnieszka Wilczyńska](/events/agnieszka-wilczynska)
+
+Evergreen Theatre, Coquitlam<br>
+April 3, 2025
+
+<br>
+
+::ProseButton{to="/events/agnieszka-wilczynska" variant="secondary"}
+See More
+::
+
 <!-- SENDECKI SPIEGEL 2023 - START -->
 
-::FullWidthSection{variant="default" padding="sm" patternOverlay="true"}
+::FullWidthSection{variant="secondary" padding="sm" patternOverlay="true"}
 ::TwoColumnAlt
 #left
 <br></br>
@@ -37,7 +56,7 @@ See More
 
 <!-- OLEJNICZAK SENDECKI START -->
 <!--
-::FullWidthSection{variant="dark" padding="sm" patternOverlay="true"}
+::FullWidthSection{variant="primary" padding="sm" patternOverlay="true"}
 ::TwoColumnAlt
 #left
 <br></br>
@@ -60,7 +79,7 @@ See More
 
 <!-- JAGODZINSKI TRIO 2022 START -->
 
-::FullWidthSection{variant="dark" padding="sm" patternOverlay="true"}
+::FullWidthSection{variant="primary" padding="sm" patternOverlay="true"}
 ::TwoColumnAlt
 #left
 <br></br>
@@ -83,7 +102,7 @@ See More
 
 <!-- JAZZ BALL 2020 - START -->
 
-::FullWidthSection{variant="default" padding="sm" patternOverlay="true"}
+::FullWidthSection{variant="secondary" padding="sm" patternOverlay="true"}
 ::TwoColumnAlt
 #left
 <br></br>
@@ -108,7 +127,7 @@ See More
 
 <!-- WYLEZOL WIECEK 2019 - START -->
 
-::FullWidthSection{variant="dark" padding="sm" patternOverlay="true"}
+::FullWidthSection{variant="primary" padding="sm" patternOverlay="true"}
 ::TwoColumnAlt
 #left
 <br></br>
@@ -131,7 +150,7 @@ See More
 
 <!-- JAZZ BALL 2019 - START -->
 
-::FullWidthSection{variant="default" padding="sm" patternOverlay="true"}
+::FullWidthSection{variant="secondary" padding="sm" patternOverlay="true"}
 ::TwoColumnAlt
 #left
 <br></br>
@@ -156,7 +175,7 @@ See More
 
 <!-- ARTUR DUTKIEWICZ JAZZ TRIO 2016 - START -->
 
-::FullWidthSection{variant="dark" padding="sm" patternOverlay="true"}
+::FullWidthSection{variant="primary" padding="sm" patternOverlay="true"}
 ::TwoColumnAlt
 #left
 <br></br>
@@ -179,7 +198,7 @@ See More
 
 <!-- OLEJNICZAK-SENDECKI JAZZ QUARTET 2016 - START -->
 
-::FullWidthSection{variant="default" padding="sm" patternOverlay="true"}
+::FullWidthSection{variant="secondary" padding="sm" patternOverlay="true"}
 ::TwoColumnAlt
 #left
 <br></br>
@@ -202,7 +221,7 @@ See More
 
 <!-- KRYSTYNA STANKO 2015 - START -->
 
-::FullWidthSection{variant="dark" padding="sm" patternOverlay="true"}
+::FullWidthSection{variant="primary" padding="sm" patternOverlay="true"}
 ::TwoColumnAlt
 #left
 <br></br>
@@ -225,7 +244,7 @@ See More
 
 <!-- KOCHAN BALDYCH 2015 - START -->
 
-::FullWidthSection{variant="default" padding="sm" patternOverlay="true"}
+::FullWidthSection{variant="secondary" padding="sm" patternOverlay="true"}
 ::TwoColumnAlt
 #left
 <br></br>
@@ -248,7 +267,7 @@ See More
 
 <!-- JAZZ BALL 2015 - START -->
 
-::FullWidthSection{variant="dark" padding="sm" patternOverlay="true"}
+::FullWidthSection{variant="primary" padding="sm" patternOverlay="true"}
 ::TwoColumnAlt
 #left
 <br></br>
@@ -273,7 +292,7 @@ See More
 
 <!-- ATOM STRING QUARTET 2014 - START -->
 
-::FullWidthSection{variant="default" padding="sm" patternOverlay="true"}
+::FullWidthSection{variant="secondary" padding="sm" patternOverlay="true"}
 ::TwoColumnAlt
 #left
 <br></br>
@@ -296,7 +315,7 @@ See More
 
 <!-- NAMYSLOWSKI KOCHAN 2013 - START -->
 
-::FullWidthSection{variant="dark" padding="sm" patternOverlay="true"}
+::FullWidthSection{variant="primary" padding="sm" patternOverlay="true"}
 ::TwoColumnAlt
 #left
 <br></br>
@@ -319,7 +338,7 @@ See More
 
 <!-- JAZZ BALL 2013 - START -->
 
-::FullWidthSection{variant="default" padding="sm" patternOverlay="true"}
+::FullWidthSection{variant="secondary" padding="sm" patternOverlay="true"}
 ::TwoColumnAlt
 #left
 <br></br>
@@ -344,7 +363,7 @@ See More
 
 <!-- JAZZ CAFE NOV 2012 - START -->
 
-::FullWidthSection{variant="dark" padding="sm" patternOverlay="true"}
+::FullWidthSection{variant="primary" padding="sm" patternOverlay="true"}
 ::TwoColumnAlt
 #left
 <br></br>
@@ -368,7 +387,7 @@ See More
 
 <!-- JAZZ CAFE SEPT 2012 - START -->
 
-::FullWidthSection{variant="default" padding="sm" patternOverlay="true"}
+::FullWidthSection{variant="secondary" padding="sm" patternOverlay="true"}
 ::TwoColumnAlt
 #left
 <br></br>
@@ -392,7 +411,7 @@ See More
 
 <!-- STRING CONNECTION LIVE 2012 - START -->
 
-::FullWidthSection{variant="dark" padding="sm" patternOverlay="true"}
+::FullWidthSection{variant="primary" padding="sm" patternOverlay="true"}
 ::TwoColumnAlt
 #left
 <br></br>
@@ -438,7 +457,7 @@ See More
 
 <!-- JAZZ CAFE SEPT 2011 - START -->
 
-::FullWidthSection{variant="dark" padding="sm" patternOverlay="true"}
+::FullWidthSection{variant="primary" padding="sm" patternOverlay="true"}
 ::TwoColumnAlt
 #left
 <br></br>
@@ -486,7 +505,7 @@ See More
 
 <!-- JAGODZINSKI TRIO 2010 - START -->
 
-::FullWidthSection{variant="dark" padding="sm" patternOverlay="true"}
+::FullWidthSection{variant="primary" padding="sm" patternOverlay="true"}
 ::TwoColumnAlt
 #left
 <br></br>

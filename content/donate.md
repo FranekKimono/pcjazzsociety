@@ -1,7 +1,5 @@
 ---
-title:
-  en: Donate
-  pl: Wspomóż Nas
+title: Donate
 description:
   en: Support our mission with a one-time donation.
   pl: Wspieraj naszą misję jednorazową darowizną.

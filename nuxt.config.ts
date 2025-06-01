@@ -13,7 +13,7 @@ export default defineNuxtConfig({
   ],
   site: {
     url: process.env.NUXT_SITE_URL || "https://pcjazzsociety.ca",
-    name: process.env.NUXT_SITE_NAME || "PCJS",
+    name: process.env.NUXT_SITE_NAME || "Polish-Canadian Jazz Society",
     primaryDomain: process.env.NUXT_PRIMARY_DOMAIN || "pcjazzsociety.ca",
   },
   i18n: {
@@ -40,7 +40,7 @@ export default defineNuxtConfig({
       // Keys that are exposed to the client
       site: {
         url: process.env.NUXT_SITE_URL || "https://pcjazzsociety.ca",
-        name: process.env.NUXT_SITE_NAME || "PCJS",
+        name: process.env.NUXT_SITE_NAME || "Polish-Canadian Jazz Society",
         primaryDomain: process.env.NUXT_PRIMARY_DOMAIN || "pcjazzsociety.ca",
       },
       primaryColor: process.env.NUXT_PRIMARY_COLOR || "#242eb6", // blue default
@@ -115,7 +115,8 @@ export default defineNuxtConfig({
   app: {
     baseURL: process.env.NUXT_APP_BASE_URL || "/",
     head: {
-      title: "Company Inc - Business Solutions",
+      titleTemplate: "%s | Polish-Canadian Jazz Society",
+      title: "Polish-Canadian Jazz Society", // Default title
       meta: [
         { charset: "utf-8" },
         {

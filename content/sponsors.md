@@ -1,3 +1,11 @@
+---
+title: Sponors
+description: "Sponsors"
+keywords: Sponsor list, Polish Canadian Jazz Society
+sitemap:
+  changefreq: monthly
+---
+
 ::FullWidthSection{variant="primary" padding="lg" patternOverlay="true" backgroundImage="/images/hero/jazz-splash-b.jpg"}
 
 # Sponsors

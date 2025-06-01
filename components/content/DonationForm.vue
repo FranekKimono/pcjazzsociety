@@ -18,38 +18,6 @@
       />
     </div>
 
-    <!-- Additional Giving Details -->
-    <fieldset class="mt-6">
-      <legend class="text-lg font-medium text-gray-900 dark:text-gray-100">
-        Additional Giving Details
-      </legend>
-      <div class="mt-2 space-y-2">
-        <div>
-          <input
-            type="checkbox"
-            id="decline-benefits"
-            v-model="formData.declineBenefits"
-            :disabled="props.mode === 'print'"
-          />
-          <label for="decline-benefits" class="ml-2"
-            >I wish to decline all benefits to claim the full tax-deduction for
-            my gift.</label
-          >
-        </div>
-        <div>
-          <input
-            type="checkbox"
-            id="gift-tribute"
-            v-model="formData.isTribute"
-            :disabled="props.mode === 'print'"
-          />
-          <label for="gift-tribute" class="ml-2"
-            >I wish to make this gift as a tribute.</label
-          >
-        </div>
-      </div>
-    </fieldset>
-
     <!-- Recognition -->
     <fieldset class="mt-6">
       <legend class="text-lg font-medium text-gray-900 dark:text-gray-100">
@@ -123,8 +91,6 @@ const props = defineProps({
 
 const defaultFormData = {
   amount: null,
-  declineBenefits: false,
-  isTribute: true,
   listName: false,
   recognitionName: "",
   anonymousGift: true,

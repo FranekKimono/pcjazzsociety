@@ -1,7 +1,5 @@
 ---
-title:
-  en: About Us
-  pl: O nas
+title: About Us
 description:
   en: Learn more about the Polish-Canadian Jazz Society.
   pl: Dowiedz się więcej o Polsko-Kanadyjskim Towarzystwie Jazzowym.

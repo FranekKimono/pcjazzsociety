@@ -1,5 +1,5 @@
 ---
-title: "Privacy Policy"
+title: Privacy
 description: "Privacy policy and information handling for Polish Canadian Jazz Society"
 keywords: privacy policy, data protection, information security, personal data, Polish Canadian Jazz Society
 sitemap:

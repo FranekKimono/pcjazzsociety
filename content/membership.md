@@ -1,5 +1,5 @@
 ---
-title: Membership Application
+title: Membership
 description: Become a member of the Polish Canadian Jazz Society. Fill out the application form.
 keywords: membership, join, application, Polish Canadian Jazz Society, jazz society membership
 sitemap:
